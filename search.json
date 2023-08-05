@@ -1,23 +1,135 @@
 [
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "clase3.html#slides",
+    "href": "clase3.html#slides",
+    "title": "Clase 3 - Diseño de Bases de Datos Relacionales",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase9.html#slides",
+    "href": "clase9.html#slides",
+    "title": "Clase 9",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase2.html",
+    "href": "clase2.html",
+    "title": "Clase 2 - Modelos de datos",
     "section": "",
-    "text": "Example schedule:\n\n\n\n\n\n\n\n\n\nMorning\nAfternoon\n\n\n\n\nL\nIntro + Data manipulation\ngit / GitHub\n\n\nM\nGeneralised Linear Models\nData visualisation\n\n\nX\nMixed models / GAM / Bayes\nFunctional programming + Students work\n\n\nJ\nMultivariate analyses\nReproducible workflows\n\n\nV\nUsing R as GIS + Students work\nProject presentations"
+    "text": "Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.\nDefnir base de datos.\nDescribir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.\nDefinir base de datos relacional.\nDefinir Entidad, Relación, Atributo y Dominio.\nIdentificar Entidades, Relaciones, Atributos y Dominios.\nAnalizar y leer Modelos de Entidad Relación (MER)."
+  },
+  {
+    "objectID": "clase2.html#objetivos-de-aprendizaje",
+    "href": "clase2.html#objetivos-de-aprendizaje",
+    "title": "Clase 2 - Modelos de datos",
+    "section": "",
+    "text": "Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.\nDefnir base de datos.\nDescribir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.\nDefinir base de datos relacional.\nDefinir Entidad, Relación, Atributo y Dominio.\nIdentificar Entidades, Relaciones, Atributos y Dominios.\nAnalizar y leer Modelos de Entidad Relación (MER)."
+  },
+  {
+    "objectID": "clase2.html#slides",
+    "href": "clase2.html#slides",
+    "title": "Clase 2 - Modelos de datos",
+    "section": "Slides",
+    "text": "Slides"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course Title",
+    "title": "186 - Gestión de Datos",
     "section": "",
-    "text": "Course info & details here"
+    "text": "Clases de tres horas sincrónicas por semana más horas de lectura de bibliografía obligatoria y práctica, totalizando 96 horas en total.\n\n\n\n\nYanina Bellini Saibene\nPaola Corrales\n\n\n\n\nAnte la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.\n\n\n\n\nSistemas de bases de Datos.\nDiseño y administración de Sistemas de Bases de Datos.\nEscalabilidad, eficiencia y efectividad.\nModelado y calidad de datos.\nModelos de datos: Modelo Entidad-Relación, Modelo Relacional.\nLenguajes de Sistemas de Gestión de Bases de Datos. Álgebra Relacional, Cálculo Relacional.\nEl lenguaje estándar SQL.\nDiseño de Bases de Datos Relacionales. Teoría formal de la Normalización de esquemas relacionales. Integridad. Seguridad. Recuperación. Concurrencia. Optimización.\nEl lenguaje de programación R.\nNociones de minería de datos.\n\n\n\n\nLos objetivos de la materia son:\n\nAdquirir nociones sobre la generación y origen de los datos, formas de almacenamiento y su organización.\nIdentificar distintos diseños de bases de datos.\nDesarrollar modelos de datos.\nManipular bases de datos utilizando el lenguaje SQL.\nAplicar las nociones de SQL adquiridas en aplicaciones con el lenguaje R.\n\n\n\n\n\n\nDato. Información. Dimensiones de los datos. Generación de Datos. Formas de ordenamiento y almacenamiento. Evolución: del archivo txt a las bases de datos no estructuradas (Big Data). Nociones de minería de datos.\n\n\n\nEl modelo relacional y el álgebra relacional. Introducción al diseño de bases de datos. Datos estructurados (tidy). Formas normales. Modelado de datos. Creación del modelo conceptual en un modelo de base de datos\n\n\n\nEl lenguaje SQL. Manipulación de estructuras de datos. Consulta de datos. Manipulación de datos.\n\n\n\nR y tidyverse para consulta de datos. Manipulacion de datos.\n\n\n\n\n\nCamps Pané, Rafael y otros (2005). Bases de datos. Barcelona, Fundació per a la Universitat Oberta de Catalunya. Disponible en: https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf\nR para ciencia de datos. de Hadley Wickham y Garrett Grolemund. Disponible es: https://es.r4ds.hadley.nz/\n\nSe solicitará a los estudiantes que instalen software libre y gratuito para la realización de las prácticas de la materia:\n\nSQLLite (gestor de base de datos): https://sqliteonline.com/, https://www.sqlite.org/index.html\nR (lenguaje de programación) - https://www.r-project.org/\nRStudio (IDE) - https://www.rstudio.com/products/rstudio/\n\nOtros materiales y bibliografía serán sugeridos de acuerdo a las discusiones que se generen y el interés de las y los estudiantes.\n\n\n\nLa materia se llevará a cabo en clases sincrónicas e interactivas que incluyen exposiciones teóricas y ejercicios prácticos. Para cada clase se sugerirá bibliografía para leer y complementar los temas vistos como así también ejercicios de práctica si correspondiera. En el campus virtual están disponibles los materiales, clases grabadas y se abrirán foros para preguntas y discusión de los distintos temas. La comunicación se realizará por ese medio.\n\n\n\nRequisitos de aprobación: para aprobar la cursada será necesario aprobar los dos trabajos de evaluación parcial con una nota de 6 puntos o más. Para aprobar la materia deberán cumplirse una de las siguientes condiciones:\n\nAprobar los trabajos de evaluación con una nota de 6 o más puntos y un promedio mayor a 7 puntos.\nAprobar un trabajo final a rendir en una fecha de examen.\nCriterios de evaluación: Se evaluarán los contenidos de la materia en dos trabajos prácticos grupales.\nFormatos de la evaluación de las distintas instancias: presentación de forma sincrónica de los trabajos prácticos realizados.\n\nVer la agenda de la materia con el cronograma de clases."
   },
   {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Course Materials",
+    "objectID": "index.html#materia-de-la-licenciatura-en-ciencias-de-datos-de-la-universidad-nacional-guillermo-brown",
+    "href": "index.html#materia-de-la-licenciatura-en-ciencias-de-datos-de-la-universidad-nacional-guillermo-brown",
+    "title": "186 - Gestión de Datos",
     "section": "",
-    "text": "Datasets\nSlides"
+    "text": "Clases de tres horas sincrónicas por semana más horas de lectura de bibliografía obligatoria y práctica, totalizando 96 horas en total.\n\n\n\n\nYanina Bellini Saibene\nPaola Corrales\n\n\n\n\nAnte la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.\n\n\n\n\nSistemas de bases de Datos.\nDiseño y administración de Sistemas de Bases de Datos.\nEscalabilidad, eficiencia y efectividad.\nModelado y calidad de datos.\nModelos de datos: Modelo Entidad-Relación, Modelo Relacional.\nLenguajes de Sistemas de Gestión de Bases de Datos. Álgebra Relacional, Cálculo Relacional.\nEl lenguaje estándar SQL.\nDiseño de Bases de Datos Relacionales. Teoría formal de la Normalización de esquemas relacionales. Integridad. Seguridad. Recuperación. Concurrencia. Optimización.\nEl lenguaje de programación R.\nNociones de minería de datos.\n\n\n\n\nLos objetivos de la materia son:\n\nAdquirir nociones sobre la generación y origen de los datos, formas de almacenamiento y su organización.\nIdentificar distintos diseños de bases de datos.\nDesarrollar modelos de datos.\nManipular bases de datos utilizando el lenguaje SQL.\nAplicar las nociones de SQL adquiridas en aplicaciones con el lenguaje R.\n\n\n\n\n\n\nDato. Información. Dimensiones de los datos. Generación de Datos. Formas de ordenamiento y almacenamiento. Evolución: del archivo txt a las bases de datos no estructuradas (Big Data). Nociones de minería de datos.\n\n\n\nEl modelo relacional y el álgebra relacional. Introducción al diseño de bases de datos. Datos estructurados (tidy). Formas normales. Modelado de datos. Creación del modelo conceptual en un modelo de base de datos\n\n\n\nEl lenguaje SQL. Manipulación de estructuras de datos. Consulta de datos. Manipulación de datos.\n\n\n\nR y tidyverse para consulta de datos. Manipulacion de datos.\n\n\n\n\n\nCamps Pané, Rafael y otros (2005). Bases de datos. Barcelona, Fundació per a la Universitat Oberta de Catalunya. Disponible en: https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf\nR para ciencia de datos. de Hadley Wickham y Garrett Grolemund. Disponible es: https://es.r4ds.hadley.nz/\n\nSe solicitará a los estudiantes que instalen software libre y gratuito para la realización de las prácticas de la materia:\n\nSQLLite (gestor de base de datos): https://sqliteonline.com/, https://www.sqlite.org/index.html\nR (lenguaje de programación) - https://www.r-project.org/\nRStudio (IDE) - https://www.rstudio.com/products/rstudio/\n\nOtros materiales y bibliografía serán sugeridos de acuerdo a las discusiones que se generen y el interés de las y los estudiantes.\n\n\n\nLa materia se llevará a cabo en clases sincrónicas e interactivas que incluyen exposiciones teóricas y ejercicios prácticos. Para cada clase se sugerirá bibliografía para leer y complementar los temas vistos como así también ejercicios de práctica si correspondiera. En el campus virtual están disponibles los materiales, clases grabadas y se abrirán foros para preguntas y discusión de los distintos temas. La comunicación se realizará por ese medio.\n\n\n\nRequisitos de aprobación: para aprobar la cursada será necesario aprobar los dos trabajos de evaluación parcial con una nota de 6 puntos o más. Para aprobar la materia deberán cumplirse una de las siguientes condiciones:\n\nAprobar los trabajos de evaluación con una nota de 6 o más puntos y un promedio mayor a 7 puntos.\nAprobar un trabajo final a rendir en una fecha de examen.\nCriterios de evaluación: Se evaluarán los contenidos de la materia en dos trabajos prácticos grupales.\nFormatos de la evaluación de las distintas instancias: presentación de forma sincrónica de los trabajos prácticos realizados.\n\nVer la agenda de la materia con el cronograma de clases."
+  },
+  {
+    "objectID": "clase8.html#slides",
+    "href": "clase8.html#slides",
+    "title": "Clase 8",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase10.html#slides",
+    "href": "clase10.html#slides",
+    "title": "Clase 10",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase6.html#slides",
+    "href": "clase6.html#slides",
+    "title": "Clase 6",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase7.html#slides",
+    "href": "clase7.html#slides",
+    "title": "Clase 7",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Cronograma de actividades / Planificación de clases",
+    "section": "",
+    "text": "Ejemplo de cronograma de clases:\n\n\n\n\n\n\n\nFechas\nTemas\n\n\nClase 1\nSistemas de bases de Datos. Nociones de Minería de Datos\n\n\nClase 2\nModelos de datos: Modelo Entidad-Relación, Modelo Racional.\n\n\nClase 3\nDiseño de Bases de Datos Relacionales.\n\n\nClase 4\nDiseño de Bases de Datos Relacionales.\n\n\nClase 5\nPrimer trabajo de evaluación - El lenguaje estándar SQL.\n\n\nClase 6\nEl lenguaje estándar SQL.\n\n\nClase 7\nRecuperatorio - El lenguaje estándar SQL.\n\n\nClase 8\nFeriado\n\n\nClase 9\nR y Tidyverse para manejo de datos.\n\n\nClase 10\nR y Tidyverse para manejo de datos.\n\n\nClase 11\nR y Tidyverse para manejo de datos.\n\n\nClase 12\nSegundo trabajo de evaluación\n\n\nClase 13\nRecuperatorio\n\n\nClase 14\nCierre notas y materia\n\n\nRango de fechas de inscripción\nInscripción finales\n\n\nFechas de Finales\nMesas de Finales"
+  },
+  {
+    "objectID": "clase4.html",
+    "href": "clase4.html",
+    "title": "186 - Gestión de Datos",
+    "section": "",
+    "text": "M— title: “Clase 4 - Diseño de Bases de Datos Relacionales”"
+  },
+  {
+    "objectID": "clase4.html#objetivos-de-aprendizaje",
+    "href": "clase4.html#objetivos-de-aprendizaje",
+    "title": "186 - Gestión de Datos",
+    "section": "Objetivos de Aprendizaje",
+    "text": "Objetivos de Aprendizaje"
+  },
+  {
+    "objectID": "clase4.html#slides",
+    "href": "clase4.html#slides",
+    "title": "186 - Gestión de Datos",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase1.html",
+    "href": "clase1.html",
+    "title": "Clase 1",
+    "section": "",
+    "text": "Describir las diferencias entre Ciencia de Datos, Minería de Datos, Aprendizaje Automático e Inteligencia Artificial.\nAnalizar casos de uso e identificar las diferencias de los conceptos mencionados anteriormente.\nDefinir Dato e Información.\nIdentificar y describir diferentes dimensiones de los datos.\nDefinir tipos de apertura de datos."
+  },
+  {
+    "objectID": "clase1.html#objetivos-de-aprendizaje",
+    "href": "clase1.html#objetivos-de-aprendizaje",
+    "title": "Clase 1",
+    "section": "",
+    "text": "Describir las diferencias entre Ciencia de Datos, Minería de Datos, Aprendizaje Automático e Inteligencia Artificial.\nAnalizar casos de uso e identificar las diferencias de los conceptos mencionados anteriormente.\nDefinir Dato e Información.\nIdentificar y describir diferentes dimensiones de los datos.\nDefinir tipos de apertura de datos."
+  },
+  {
+    "objectID": "clase1.html#slides",
+    "href": "clase1.html#slides",
+    "title": "Clase 1",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "clase5.html#slides",
+    "href": "clase5.html#slides",
+    "title": "Clase 5",
+    "section": "Slides",
+    "text": "Slides"
   }
 ]
