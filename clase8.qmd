@@ -1,0 +1,13 @@
+---
+title: "Clase 8"
+---
+
+## Objetivos de Aprendizaje
+
+
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/19Bh8MDNMR_S4LXOEeqJmShci3nPFioFPhUP57gfTxEk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
