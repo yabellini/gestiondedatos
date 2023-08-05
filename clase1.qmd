@@ -1,0 +1,22 @@
+---
+title: "Clase 1"
+---
+
+## Objetivos de Aprendizaje
+
+* Describir las diferencias entre Ciencia de Datos, Minería de Datos, Aprendizaje Automático e Inteligencia Artificial.
+
+* Analizar casos de uso e identificar las diferencias de los conceptos mencionados anteriormente.
+
+* Definir Dato e Información.
+
+* Identificar y describir diferentes dimensiones de los datos.
+
+* Definir tipos de apertura de datos.
+
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/19Bh8MDNMR_S4LXOEeqJmShci3nPFioFPhUP57gfTxEk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
