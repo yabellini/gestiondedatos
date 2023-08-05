@@ -1,15 +1,25 @@
 ---
-title: "Schedule"
+title: "Cronograma de actividades / Planificación de clases"
 ---
 
-Example schedule:
+Ejemplo de cronograma de clases:
 
-|     |                Morning              |          Afternoon                     |
-|:---:|:-----------------------------------:|:--------------------------------------:|
-|  L  | Intro + Data manipulation           | git / GitHub                           |
-|  M  | Generalised Linear Models           | Data visualisation                     |
-|  X  | Mixed models / GAM / Bayes          | Functional programming + Students work |
-|  J  | Multivariate analyses               | Reproducible workflows                 |
-|  V  | Using R as GIS + Students work      | Project presentations                  |
-
-
+|                                    |                                    |
+|-----------------------|-------------------------------------------------|
+| **Fechas**                         | **Temas**                                                    |
+| Clase 1                            | Sistemas de bases de Datos. Nociones de Minería de Datos   |
+| Clase 2                            | Modelos de datos: Modelo Entidad-Relación, Modelo Racional.  |
+| Clase 3                            | Diseño de Bases de Datos Relacionales.                       |
+| Clase 4                            | Diseño de Bases de Datos Relacionales.                       |
+| **Clase 5**                        | **Primer trabajo de evaluación - El lenguaje estándar SQL.** |
+| Clase 6                            | El lenguaje estándar SQL.                                    |
+| **Clase 7**                        | **Recuperatorio - El lenguaje estándar SQL.**                |
+| Clase 8                            | Feriado                                                      |
+| Clase 9                            | R y Tidyverse para manejo de datos.                          |
+| Clase 10                           | R y Tidyverse para manejo de datos.                          |
+| Clase 11                           | R y Tidyverse para manejo de datos.                          |
+| **Clase 12**                       | **Segundo trabajo de evaluación**                            |
+| **Clase 13**                       | **Recuperatorio**                                            |
+| **Clase 14**                       | **Cierre notas y materia**                                   |
+| **Rango de fechas de inscripción** | **Inscripción finales**                                      |
+| **Fechas de Finales**              | **Mesas de Finales**                                         |
