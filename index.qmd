@@ -1,5 +1,97 @@
 ---
-title: "Course Title"
+title: "186 - Gestión de Datos"
 ---
 
-Course info & details here
+## Materia de la Licenciatura en Ciencias de Datos de la Universidad Nacional Guillermo Brown
+
+### Cantidad de horas semanales y totales
+
+Clases de tres horas sincrónicas por semana más horas de lectura de bibliografía obligatoria y práctica, totalizando 96 horas en total.
+
+### Nombres de las/los integrantes del equipo docente
+
+* Yanina Bellini Saibene 
+* Paola Corrales 
+
+### Fundamentación
+
+Ante la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.
+
+### Programa sintético
+
+- Sistemas de bases de Datos. 
+- Diseño y administración de Sistemas de Bases de Datos. 
+- Escalabilidad, eficiencia y efectividad. 
+- Modelado y calidad de datos. 
+- Modelos de datos: Modelo Entidad-Relación, Modelo Relacional. 
+- Lenguajes de Sistemas de Gestión de Bases de Datos. Álgebra Relacional, Cálculo Relacional.
+- El lenguaje estándar SQL. 
+- Diseño de Bases de Datos Relacionales. Teoría formal de la Normalización de esquemas relacionales. Integridad. Seguridad. Recuperación. Concurrencia. Optimización. 
+- El lenguaje de programación R.
+- Nociones de minería de datos.
+
+### Objetivos 
+
+Los objetivos de la materia son:
+
+* Adquirir nociones sobre la generación y origen de los datos, formas de almacenamiento y su organización.
+* Identificar distintos diseños de bases de datos.
+* Desarrollar modelos de datos.
+* Manipular bases de datos utilizando el lenguaje SQL.
+* Aplicar las nociones de SQL adquiridas en aplicaciones con el lenguaje R. 
+
+
+### Contenidos 
+
+#### Unidad 1: Introducción
+
+Dato. Información. Dimensiones de los datos. Generación de Datos. Formas de ordenamiento y almacenamiento. Evolución: del archivo txt a las bases de datos no estructuradas (Big Data). Nociones de minería de datos.
+
+#### Unidad 2: Modelado de datos y álgebra relacional
+
+El modelo relacional y el álgebra relacional. Introducción al diseño de bases de datos. Datos estructurados (tidy). Formas normales. Modelado de datos. Creación del modelo conceptual en un modelo de base de datos
+
+#### Unidad 3: El lenguaje SQL
+
+El lenguaje SQL. Manipulación de estructuras de datos. Consulta de datos. Manipulación de datos.
+
+#### Unidad 4: El lenguaje R
+
+R y tidyverse para consulta de datos. Manipulacion de datos.
+
+
+### Bibliografía y recursos audiovisuales
+
+* Camps Pané, Rafael y otros (2005). Bases de datos. Barcelona, Fundació per a la Universitat Oberta de Catalunya. Disponible en: https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf 
+
+* R para ciencia de datos. de Hadley Wickham y Garrett Grolemund. Disponible es: https://es.r4ds.hadley.nz/ 
+
+Se solicitará a los estudiantes que instalen software libre y gratuito para la realización de las prácticas de la materia:
+
+* SQLLite (gestor de base de datos):  https://sqliteonline.com/,  https://www.sqlite.org/index.html 
+
+* R (lenguaje de programación) - https://www.r-project.org/ 
+
+* RStudio (IDE) - https://www.rstudio.com/products/rstudio/ 
+
+Otros materiales y bibliografía serán sugeridos de acuerdo a las discusiones que se generen y el interés de las y los estudiantes. 
+
+### Metodología 
+
+La materia se llevará a cabo en clases sincrónicas e interactivas que incluyen exposiciones teóricas y ejercicios prácticos. Para cada clase se sugerirá bibliografía para leer y complementar los temas vistos como así también ejercicios de práctica si correspondiera. 
+En el campus virtual están disponibles los materiales, clases grabadas y se abrirán foros para preguntas y discusión de los distintos temas. La comunicación se realizará por ese medio.
+
+
+### Evaluación
+
+__Requisitos de aprobación:__ para aprobar la cursada será necesario aprobar los dos trabajos de evaluación parcial con una nota de 6 puntos o más. Para aprobar la materia deberán cumplirse una de las siguientes condiciones:
+
+  * Aprobar los trabajos de evaluación con una nota de 6 o más puntos y un promedio mayor a 7 puntos. 
+
+  * Aprobar un trabajo final a rendir en una fecha de examen.
+
+  * Criterios de evaluación: Se evaluarán los contenidos de la materia en dos trabajos prácticos grupales.
+
+  * Formatos de la evaluación de las distintas instancias: presentación de forma sincrónica de los trabajos prácticos realizados.
+
+Ver la [agenda](schedule.html) de la materia con el cronograma de clases.
