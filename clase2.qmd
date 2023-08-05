@@ -1,0 +1,25 @@
+---
+title: "Clase 2 - Modelos de datos"
+---
+
+## Objetivos de Aprendizaje
+
+* Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.
+
+* Defnir base de datos.
+
+* Describir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.
+
+* Definir base de datos relacional.
+
+* Definir Entidad, Relación, Atributo y Dominio.
+
+* Identificar Entidades, Relaciones, Atributos y Dominios.
+
+* Analizar y leer Modelos de Entidad Relación (MER).  
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/1hK34H55hKRaG8tn9LJ-AEayV2t9n3FVU1FBiP210Du0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
