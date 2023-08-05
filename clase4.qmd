@@ -1,0 +1,12 @@
+M---
+title: "Clase 4 - Diseño de Bases de Datos Relacionales"
+---
+
+## Objetivos de Aprendizaje
+
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/1nXoj0UCQSbiOrHmtslZPOdtyq1mK1xq4KURf1z8K570/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
