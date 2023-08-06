@@ -4,25 +4,96 @@ title: "Clase 5 - El lenguaje estándar SQL"
 
 ## Objetivos de Aprendizaje
 
-* Identificar 3 sentencias principales de definición de base de datos del lenguaje SQL.
+-   Identificar 3 sentencias principales de definición de base de datos del lenguaje SQL.
 
-* Asociar cada elemento de un DER con la sentencia SQL correspondiente para crear tablas.
+-   Asociar cada elemento de un DER con la sentencia SQL correspondiente para crear tablas.
 
-* Identificar claves primarias y foráneas en un DER y crearlas utilizando la sentencia CREATE de SQL.
+-   Identificar claves primarias y foráneas en un DER y crearlas utilizando la sentencia CREATE de SQL.
 
-* Asociar los dominios de los atributos en un DER y las restricciones de columnas y como se implementan al crear las tablas con SQL. 
+-   Asociar los dominios de los atributos en un DER y las restricciones de columnas y como se implementan al crear las tablas con SQL.
 
-* Borrar tablas de base de datos utilizando DROP.
+-   Borrar tablas de base de datos utilizando DROP.
 
-* Modificar tablas de base de datos utilizando ALTER.
+-   Modificar tablas de base de datos utilizando ALTER.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1rhBAxf0GiJZQ77lgC6-9JqvDA1EH5r5a9E7uOjBaJk8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1rhBAxf0GiJZQ77lgC6-9JqvDA1EH5r5a9E7uOjBaJk8/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
 
 ## Ejercicios
 
+Crear el siguiente diagrama como base de datos.
+
+#### DER
+
+![Diagrama Entidad-Relación de un sistema de facturación contable](img/Ejercicio1-Clase5-DER.png){fig-alt="DER con las tablas Cliente, Producto, Empresa, EncabezadoFactura y DetalleFactura."}
+
+#### Dominio de los atributos
+
+##### **Cliente**
+
+CUIT entero
+
+NOMBRE varchar(100)
+
+DIRECCION varchar(150)
+
+TIPO_CONTRIBUYENTE entero
+
+##### **Empresa**
+
+CUIT entero
+
+NOMBRE varchar(100)
+
+DIRECCION varchar(150)
+
+TIPO_CONTRIBUYENTE entero
+
+##### **Producto**
+
+IDPRODUCTO entero
+
+NOMBRE varchar(100)
+
+STOCK entero
+
+PRECIO decimal
+
+##### **Encabezado_Factura**
+
+NROFACTURA entero
+
+IDCLIENTE entero
+
+IDEMPRESA entero
+
+TIPO_FACTURA varchar(1)
+
+TIPO_PAGO entero
+
+FECHA_EMISION fecha
+
+##### **Detalle_factura**
+
+NROFACTURA entero
+
+IDPRODUCTO entero
+
+CANTIDAD entero
+
+PRECIO decimal
+
+Una vez creado descarguen el *esquema de la base de datos* y subanlo al campus en la entrega de tarea de la clase 5.
+
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1xskbqldByxcj1pMwEWpYWur9jPOlc08hr_3_z3j4fOM/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
+:::
 
 ## Lecturas sugeridas
 
-* Modulo 4 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
+-   Modulo 4 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
