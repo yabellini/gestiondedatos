@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "clase3.html",
+    "href": "clase3.html",
+    "title": "Clase 3 - Diseño de Bases de Datos Relacionales",
+    "section": "",
+    "text": "Analizar un conjunto de requerimientos y plazmarlos en un modelo de datos.\nDefinir e identificar el grado y la cardinalidad de una relación.\nDefinir que es un modelo relacional.\nDefinir e identificar una tabla y diferentes tipos de atributos en una entidad.\nDefinir e identificar clave candidata, clave primaria, clave foránea.\nLeer y generar modelos relacionales e identificar sus componentes."
+  },
+  {
+    "objectID": "clase3.html#objetivos-de-aprendizaje",
+    "href": "clase3.html#objetivos-de-aprendizaje",
+    "title": "Clase 3 - Diseño de Bases de Datos Relacionales",
+    "section": "",
+    "text": "Analizar un conjunto de requerimientos y plazmarlos en un modelo de datos.\nDefinir e identificar el grado y la cardinalidad de una relación.\nDefinir que es un modelo relacional.\nDefinir e identificar una tabla y diferentes tipos de atributos en una entidad.\nDefinir e identificar clave candidata, clave primaria, clave foránea.\nLeer y generar modelos relacionales e identificar sus componentes."
+  },
+  {
     "objectID": "clase3.html#slides",
     "href": "clase3.html#slides",
     "title": "Clase 3 - Diseño de Bases de Datos Relacionales",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "clase3.html#ejercicios",
+    "href": "clase3.html#ejercicios",
+    "title": "Clase 3 - Diseño de Bases de Datos Relacionales",
+    "section": "Ejercicios",
+    "text": "Ejercicios"
   },
   {
     "objectID": "clase9.html#slides",
