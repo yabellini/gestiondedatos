@@ -21,3 +21,8 @@ title: "Clase 5 - El lenguaje estándar SQL"
 <iframe src="https://docs.google.com/presentation/d/1rhBAxf0GiJZQ77lgC6-9JqvDA1EH5r5a9E7uOjBaJk8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Ejercicios
+
+
+## Lecturas sugeridas
+
+* Modulo 4 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
