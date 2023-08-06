@@ -159,3 +159,7 @@ Esta es una [plantilla del documento compartido](https://docs.google.com/documen
 Este listado de conjunto de datos están disponibles con licencia de uso abierta en paquetes de R que luego se pueden utilizar en las clases de R.  
 Se puede generar un listado de conjuntos de datos con temas más cercanos a tus estudiantes y con variables y entidades en su idioma nativo.
 :::
+
+## Lecturas sugeridas
+
+* Modulos 1 y 2 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
