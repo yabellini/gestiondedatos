@@ -151,3 +151,9 @@ Esta es una [plantilla del documento compartido](https://docs.google.com/documen
 -   **Grupo 10**
 
 [Gapminder](https://drive.google.com/file/d/1TGP8NNYz6-tuaIhvv_QTYJ6eSEJyE2fr/view?usp=sharing): Extracto de datos de Gapminder sobre expectativa de vida, PIB per cápita y población, según país.
+
+::: callout-tip
+## Conjunto de datos
+Este listado de conjunto de datos están disponibles con licencia de uso abierta en paquetes de R que luego se pueden utilizar en las clases de R.  
+Se puede generar un listado de conjuntos de datos con temas más cercanos a tus estudiantes y con variables y entidades en su idioma nativo.
+:::
