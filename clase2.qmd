@@ -40,7 +40,7 @@ title: "Clase 2 - Modelos de datos"
 
 -   ¿Pueden identificar las 3 Vs del BigData en este servicio? mencione como está representada y porqué.
 
--   ¿Les parece que el servicio es exitoso?, ¿Por qué? \
+-   ¿Les parece que el servicio es exitoso?, ¿Por qué?\
 
 #### 2) Miren el video de esta municipalidad que utiliza Ciencia de Datos, discutan en grupo para contestar las siguientes preguntas:
 
@@ -80,7 +80,7 @@ title: "Clase 2 - Modelos de datos"
 
 **Duración:** \~15 minutos
 
-1.  Miren el conjunto de datos que le corresponde a su grupo (Revisar: [Listado de bases de datos](https://docs.google.com/document/d/1ME9nBZOo10nB5-NJ9Ib0qaHMyScPF5oW2Pal15uAlxE/edit?usp=sharing)).
+1.  Miren el conjunto de datos que le corresponde a su grupo (Revisar: [Listado de bases de datos](#listado-de-base-de-datos)).
 
 2.  A partir del análisis de este conjunto de datos, dibujen el Diagrama Entidad-Relación correspondiente.
 
@@ -91,6 +91,8 @@ Pueden realizar este ejercicio de dos maneras:
 -   Comparten el link entre todes para que puedan editar el diagrama en conjunto.
 
 **Usen esta herramienta para dibujar el diagrama:** https://excalidraw.com
+
+![Controles de Excalidraw](img/excalidraw.png){fig-alt="Pantalla de Excalidraw.  Arriba a la izquierda se marca el ícono para compartir y poder editar en grupo el diagrama (es el quinto y último icono en el menú).  También se marca el ícono para exportar el diagrama a una imagen (es el cuarto icono en el menú)"}
 
 Luego coloquen el diagrama en este documento.  Pueden exportarlo como imágen e insertarlo en el documento.
 
@@ -107,3 +109,45 @@ Luego coloquen el diagrama en este documento.  Pueden exportarlo como imágen e
 ::: callout-tip
 Esta es una [plantilla del documento compartido](https://docs.google.com/document/d/1rTH3FnmbZkwT_-coW5vAXWghGWSttn5KowWSYftVRUc/edit?usp=sharing) en google docs. Se debe generar un archivo por cada grupo. Se recomienda que los grupos tengan entre dos y cuantro personas.
 :::
+
+### Listado de base de datos {#listado-de-base-de-datos}
+
+-   **Grupo 1**
+
+[Clima](https://drive.google.com/file/d/12s-769RMbqlYMJLT3jyiQJQQuElLhW81/view?usp=sharing): Datos meteorológicos horarios para las estaciones en aeropuertos: LGA, JFK y EWR.
+
+-   **Grupo 2**
+
+[Vehículos](https://drive.google.com/file/d/1BeWbefWcOWQSjO4toHVoaGh0o_lGX1rr/view?usp=sharing): Datos de economía de combustible de la Agencia de Protección Medioambiental (EPA) de EE.UU., 1985-2015. Contiene una selección de variables y no considera vehículos con datos incompletos.
+
+-   **Grupo 3**
+
+[Pinguinos](https://drive.google.com/file/d/1KKHJ2XBSWhxAyvupu19U283bYyx8LVCP/view?usp=sharing): Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica.
+
+-   **Grupo 4**
+
+[Aeropuertos](https://drive.google.com/file/d/1lM0qcLfCqKZBs_4bLOF6D6hfSWEX88is/view?usp=sharing): Información general (nombre, localización, zona horaria) sobre aeropuertos.
+
+-   **Grupo 5**
+
+[Bateadores](https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing): Estadísticas de bateadores de beisbol.
+
+-   **Grupo 6**
+
+[Aviones](https://drive.google.com/file/d/1YEOfQARhCyS7LkkaXSrREDqyfHkXyG6B/view?usp=sharing): Datos de los aviones y sus códigos de cola en el registro de aviación de la FAA. American Airways (AA) y Envoy Air (MQ) reportan número de flota en lugar de número de cola, por lo que no es posible trazarlos.
+
+-   **Grupo 7**
+
+[Personas](https://drive.google.com/file/d/1NZjpquj96Ay7gh9FSd6ML8cUJh3lU_mq/view?usp=sharing): Nombres de jugadores de beisbol, fecha de nacimiento e información bibliográfica.
+
+-   **Grupo 8**
+
+[Encuesta](https://drive.google.com/file/d/1HUMHZX_WOOiP2k8QBgF9DA1m1o_jN--0/view?usp=sharing): Muestra de variables categóricas de la Encuesta Social General de EE.UU.
+
+-   **Grupo 9**
+
+[Millas](https://drive.google.com/file/d/13QMhiIwWHSwJRGRF_OVC6BPEFqiEXAkH/view?usp=sharing): Este conjunto de datos contiene un subconjunto de los datos de economía de combustible que la Agencia de Protección Medioambiental (EPA) pone a disposición en http://fueleconomy.gov. Contiene solo modelos que tuvieron una nueva versión cada año entre 1999 y 2008, lo que fue utilizado como un proxy de la popularidad del modelo.
+
+-   **Grupo 10**
+
+[Gapminder](https://drive.google.com/file/d/1TGP8NNYz6-tuaIhvv_QTYJ6eSEJyE2fr/view?usp=sharing): Extracto de datos de Gapminder sobre expectativa de vida, PIB per cápita y población, según país.
