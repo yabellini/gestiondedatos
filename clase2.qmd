@@ -4,22 +4,106 @@ title: "Clase 2 - Modelos de datos"
 
 ## Objetivos de Aprendizaje
 
-* Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.
+-   Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.
 
-* Defnir base de datos.
+-   Definir base de datos.
 
-* Describir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.
+-   Describir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.
 
-* Definir base de datos relacional.
+-   Definir base de datos relacional.
 
-* Definir Entidad, Relación, Atributo y Dominio.
+-   Definir Entidad, Relación, Atributo y Dominio.
 
-* Identificar Entidades, Relaciones, Atributos y Dominios.
+-   Identificar Entidades, Relaciones, Atributos y Dominios.
 
-* Analizar y leer Modelos de Entidad Relación (MER).  
+-   Analizar y leer Modelos de Entidad Relación (MER).
+
+-   Generar Modelos de Entidad Relación.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1hK34H55hKRaG8tn9LJ-AEayV2t9n3FVU1FBiP210Du0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1hK34H55hKRaG8tn9LJ-AEayV2t9n3FVU1FBiP210Du0/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
+</iframe>
 
+## Ejercicios
+
+#### 1) Miren el video de esta empresa AgTech que utiliza Ciencia de Datos, discutan en grupo para contestar las siguientes preguntas:
+
+**Duración:** \~8 minutos
+
+**Video:** (2:00 minutos) [Conocé kilimo](https://youtu.be/4lwa-6Li6t8)
+
+**Charlar en grupo para contestar estas preguntas** (8 minutos):
+
+-   ¿Cuál es el servicio que brindan? 
+
+-   ¿Pueden identificar las 3 Vs del BigData en este servicio? mencione como está representada y porqué.
+
+-   ¿Les parece que el servicio es exitoso?, ¿Por qué? \
+
+#### 2) Miren el video de esta municipalidad que utiliza Ciencia de Datos, discutan en grupo para contestar las siguientes preguntas:
+
+**Duración:** \~8 minutos
+
+**Video:** (2:30 minutos)[Manos en la Data](https://www.youtube.com/watch?v=_s7YOkX6C2Y)
+
+**Charlar en grupo para contestar estas preguntas** (7:30 minutos)**:**
+
+-   ¿Sobre qué servicio trabajaron? 
+
+-   ¿Qué tecnologías relacionadas con Ciencia de Datos se mencionan en el video? 
+
+-   ¿Qué datos utilizan?, Identifiquen algunas de las dimensiones que vimos en la teoría.
+
+-   ¿Pueden identificar las 3 Vs del BigData en este servicio? mencione como está representada.
+
+#### 3) Miren este videos sobre transacciones ACID en Base de Datos y contesten en grupo las preguntas:
+
+**Duración:** \~15 minutos
+
+**Video 1:** (5:11 minutos) [ACID Transactions: Fundamentos de bases de datos](https://www.youtube.com/watch?v=0tAqp3w_K2o)
+
+**Para trabajar en grupos: definan con sus palabras que significan cada una de las letras de ACID** (5 minutos)
+
+-   A:
+
+-   C:
+
+-   I:
+
+-   D:
+
+¿Cómo se relacionan estas cualidades con los problemas mencionados con los sistemas de archivos? 
+
+#### 4) A partir del análisis de este conjunto de datos, generen el diagrama de Entidad-Relación:
+
+**Duración:** \~15 minutos
+
+1.  Miren el conjunto de datos que le corresponde a su grupo (Revisar: [Listado de bases de datos](https://docs.google.com/document/d/1ME9nBZOo10nB5-NJ9Ib0qaHMyScPF5oW2Pal15uAlxE/edit?usp=sharing)).
+
+2.  A partir del análisis de este conjunto de datos, dibujen el Diagrama Entidad-Relación correspondiente.
+
+Pueden realizar este ejercicio de dos maneras:
+
+-   Una persona comparte la pantalla y dibuja el diagrama que se discute con el resto del grupo.
+
+-   Comparten el link entre todes para que puedan editar el diagrama en conjunto.
+
+**Usen esta herramienta para dibujar el diagrama:** https://excalidraw.com
+
+Luego coloquen el diagrama en este documento.  Pueden exportarlo como imágen e insertarlo en el documento.
+
+3\) Definir el dominio de cada atributo completando la siguiente tabla:
+
+|                 |       |                          |
+|-----------------|-------|--------------------------|
+| Nombre atributo | Tipo  | Rango de valores válidos |
+|                 |       |                          |
+|                 |       |                          |
+|                 |       |                          |
+|                 |       |                          |
+
+::: callout-tip
+Esta es una [plantilla del documento compartido](https://docs.google.com/document/d/1rTH3FnmbZkwT_-coW5vAXWghGWSttn5KowWSYftVRUc/edit?usp=sharing) en google docs. Se debe generar un archivo por cada grupo. Se recomienda que los grupos tengan entre dos y cuantro personas.
+:::
