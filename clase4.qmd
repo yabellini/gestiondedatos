@@ -1,12 +1,121 @@
-M---
-title: "Clase 4 - Diseño de Bases de Datos Relacionales"
----
+M--- title: "Clase 4 - Diseño de Bases de Datos Relacionales" ---
 
 ## Objetivos de Aprendizaje
 
+-   Definir e identificar diferentes integridades en una base de datos relacional.
+
+-   Identificar que son datos estructurados y datos no estructurados.
+
+-   Definir tres características de los datos estructurados.
+
+-   Reconocer cinco síntomas comunes de datos desordenados.
+
+-   Definir las tres primeras formas normales.
+
+-   Aplicar las tres primeras formas normales para modelar datos.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1nXoj0UCQSbiOrHmtslZPOdtyq1mK1xq4KURf1z8K570/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1nXoj0UCQSbiOrHmtslZPOdtyq1mK1xq4KURf1z8K570/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
+</iframe>
 
+## Ejercicios
+
+### Ejercicio 1
+
+[Miren el video](https://youtu.be/TW_l8KjRxck) y:
+
+-   en la slide de su grupo completen con la definición correspondiente
+
+-   Creen una entrada en el glosario (solapa Presentación del campus)
+
+#### Grupo 1
+
+-   Definir qué son las **reglas de Integridad**
+
+-   Listar las reglas de integridad del video.
+
+#### Grupo 2
+
+-   Definir **Integridad de Dominio**
+
+-   Dar un ejemplo
+
+#### Grupo 3
+
+-   Definir **Integridad de Columna**
+
+-   Dar un ejemplo
+
+#### Grupo 4
+
+-   Definir **Integridad definida por el usuario**
+
+-   Dar un  ejemplo
+
+#### Grupo 5
+
+-   Definir **Integridad Referencial**
+
+-   Dar un ejemplo
+
+#### Grupo 6
+
+-   Definir **Integridad de la Entidad**
+
+#### Grupo 7
+
+-   Explicar un ejemplo de **Integridad de una entidad.**
+
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1AfW-PCqfXuWY5TYz7tYSCfqscHoXHGoUiXDUnVVwtsQ/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
+:::
+
+### Ejercicio 2
+
+#### Grupo 1
+
+Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+![Diagrama Entidad Relación](img/Grupo1-Ejercicio2-Clase4.png){fig-alt="Diagrama Entidad Relación con dos tablas: Aeropuertos y Medidas"}
+
+#### Grupo 2
+
+Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+![Diagrama de Entidad Relación](img/Grupo2-Ejercicio2-Clase4.png){fig-alt="Diagrama de Entidad Relación con tablas de vehículos, clases, transmiciones, motores, tracciones, frabicantes, combustibles y modelos."}
+
+#### Grupo 3
+
+Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+![Diagrama de Entidad Relación](img/Grupo3-Ejercicio2-Clase4.png){fig-alt="Diagrama de Entidad Relación con las tablas Isla y Pingüinos"}
+
+#### Grupo 4
+
+Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+#### Grupo 5
+
+Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+#### Grupo 6
+
+Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1OqsjZD6r4vZ3MRN51mn03rWniT-_Uz0JFUP7Ar1Gy4w/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase. Es una buena idea utilizar los diagramas que los estudiantes generaron en la clase anterior. De ser así, se deben repetir los grupos.
+:::
+
+### Ejercicio 3
+
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1DzIdDTUNolTG3rgXm3AnH6rD5XhvWy1lNIkAOc1Wa00/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
+:::
