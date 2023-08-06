@@ -217,6 +217,13 @@
     "text": "Ejercicios\nCrear el siguiente diagrama como base de datos.\n\nDER\n\n\n\nDiagrama Entidad-Relación de un sistema de facturación contable\n\n\n\n\nDominio de los atributos\n\nCliente\nCUIT entero\nNOMBRE varchar(100)\nDIRECCION varchar(150)\nTIPO_CONTRIBUYENTE entero\n\n\nEmpresa\nCUIT entero\nNOMBRE varchar(100)\nDIRECCION varchar(150)\nTIPO_CONTRIBUYENTE entero\n\n\nProducto\nIDPRODUCTO entero\nNOMBRE varchar(100)\nSTOCK entero\nPRECIO decimal\n\n\nEncabezado_Factura\nNROFACTURA entero\nIDCLIENTE entero\nIDEMPRESA entero\nTIPO_FACTURA varchar(1)\nTIPO_PAGO entero\nFECHA_EMISION fecha\n\n\nDetalle_factura\nNROFACTURA entero\nIDPRODUCTO entero\nCANTIDAD entero\nPRECIO decimal\nUna vez creado descarguen el esquema de la base de datos y subanlo al campus en la entrega de tarea de la clase 5.\n\n\n\n\n\n\nDocumento compartido de ejercicios\n\n\n\nEsta es una plantilla del documento compartido utilizando google slides. Es el mismo archivo para toda la clase."
   },
   {
+    "objectID": "clase5.html#ejercicios-de-práctica-extra",
+    "href": "clase5.html#ejercicios-de-práctica-extra",
+    "title": "Clase 5 - El lenguaje estándar SQL",
+    "section": "Ejercicios de práctica extra",
+    "text": "Ejercicios de práctica extra\nPara cada diagrama:\n\nCrear la base de datos. \n\nDefinir el dominio de los distintos atributos\nDefinir correctamente las PK y FK de cada tabla.\n\nCargar 5 registros para cada tabla utilizando los datos provistos. Opcional, pueden dejarlo para la semana que viene cuando revisemos mejor este tema.\nExportar el SQL y subirlo al foro de la Clase 5.\n\n\nEjercicio 1\nPinguinos: Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica.\n\n\n\nDER Pingüinos\n\n\n\n\nEjercicio 2\nBateadores: estadísticas de bateadores de beisbol.\n\n\n\nDER Bateadores\n\n\n\n\nEjercicio 3\nAlojamiento: datos de AirBnB en Buenos Aires.\n\n\n\nDER AirBnB"
+  },
+  {
     "objectID": "clase5.html#lecturas-sugeridas",
     "href": "clase5.html#lecturas-sugeridas",
     "title": "Clase 5 - El lenguaje estándar SQL",
