@@ -4,22 +4,84 @@ title: "Clase 3 - Diseño de Bases de Datos Relacionales"
 
 ## Objetivos de Aprendizaje
 
-* Analizar un conjunto de requerimientos y plazmarlos en un modelo de datos.
+-   Analizar un conjunto de requerimientos y plazmarlos en un modelo de datos.
 
-* Definir e identificar el grado y la cardinalidad de una relación.
+-   Definir e identificar el grado y la cardinalidad de una relación.
 
-* Definir que es un modelo relacional.
+-   Definir que es un modelo relacional.
 
-* Definir e identificar una tabla y diferentes tipos de atributos en una entidad.
+-   Definir e identificar una tabla y diferentes tipos de atributos en una entidad.
 
-* Definir e identificar clave candidata, clave primaria, clave foránea.
+-   Definir e identificar clave candidata, clave primaria, clave foránea.
 
-* Leer y generar modelos relacionales e identificar sus componentes.
+-   Leer y generar modelos relacionales e identificar sus componentes.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1DLVQkKY8olxZXSl2FHHzHK8KLWklF-Gtwwe51YYxGRg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1DLVQkKY8olxZXSl2FHHzHK8KLWklF-Gtwwe51YYxGRg/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
+</iframe>
 
 ## Ejercicios
 
+#### 1) Tomando los diagramas que generaron en la clase pasada determinen el grado y cardinalidad de las relaciones:
+
+**Duración:** \~15 minutos
+
+Diagrama 1: 
+
+Diagrama 2:
+
+#### 2) Tomando los diagramas que generaron la clase pasada, generen el diagrama de entidad relación e intenten definir las claves primarias y foráneas:
+
+**Duración:** \~15 minutos
+
+Diagrama 1:
+
+Diagrama 2:
+
+#### 3) Ordenar las siguientes tablas de datos:
+
+**Duración:** \~15 minutos
+
+Para resolver el ejercicio:
+
+-   Pueden insertar una nueva tabla (Menú Insertar -\> Tabla) y organizar los atributos y observaciones según consideren.
+
+-   Dibujar la tabla en un papel, sacarle una foto y copiarla en el documento
+
+##### 1) Rendimientos: 
+
+|          |              |              |              |              |              |              |
+|----------|--------------|--------------|--------------|--------------|--------------|--------------|
+| **Lote** | **2009 avg** | **2009 max** | **2009 min** | **2010 avg** | **2010 max** | **2010 min** |
+| A        | \-           | \-           | \-           | \-           | \-           | \-           |
+| 18       | \>95%        | \>95%        | \>95%        | \>95%        | \>95%        | \>95%        |
+| La loma  | 77%          | 89%          | 3%           | 75%          | 88%          | 3%           |
+| A2       | 25%          | 35%          | 19%          | 25%          | 35%          | 19%          |
+
+##### 2) Países
+
+Tabla Casos
+
+|            |          |          |
+|------------|----------|----------|
+| **pais**   | **1999** | **2000** |
+| Afganistan | 745      | 2666     |
+| Brasil     | 37737    | 80488    |
+| China      | 212258   | 213766   |
+
+Tabla población
+
+|            |            |            |
+|------------|------------|------------|
+| **pais**   | **1999**   | **2000**   |
+| Afganistan | 19987071   | 20595360   |
+| Brasil     | 172006362  | 174504898  |
+| China      | 1272915272 | 1280428583 |
+
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/document/d/1h_654Tv0vKOxEXAKFiLFlTlXtzXFPOkJt04zIba-Nq0/edit?usp=sharing) en google docs. Se debe generar un archivo por cada grupo. Se deben repetir los grupos de la clase anterior ya que se trabajará sobre los resultados de los ejercicios de clase 2.
+:::

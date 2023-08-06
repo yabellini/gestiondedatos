@@ -107,7 +107,9 @@ Luego coloquen el diagrama en este documento.  Pueden exportarlo como imágen e
 |                 |       |                          |
 
 ::: callout-tip
-Esta es una [plantilla del documento compartido](https://docs.google.com/document/d/1rTH3FnmbZkwT_-coW5vAXWghGWSttn5KowWSYftVRUc/edit?usp=sharing) en google docs. Se debe generar un archivo por cada grupo. Se recomienda que los grupos tengan entre dos y cuantro personas.
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/document/d/1rTH3FnmbZkwT_-coW5vAXWghGWSttn5KowWSYftVRUc/edit?usp=sharing) en google docs. Se debe generar un archivo por cada grupo. Se recomienda que los grupos tengan entre dos y cuatro personas.
 :::
 
 ### Listado de base de datos {#listado-de-base-de-datos}
