@@ -28,6 +28,13 @@
     "text": "Ejercicios\n\n1) Tomando los diagramas que generaron en la clase pasada determinen el grado y cardinalidad de las relaciones:\nDuración: ~15 minutos\nDiagrama 1: \nDiagrama 2:\n\n\n2) Tomando los diagramas que generaron la clase pasada, generen el diagrama de entidad relación e intenten definir las claves primarias y foráneas:\nDuración: ~15 minutos\nDiagrama 1:\nDiagrama 2:\n\n\n3) Ordenar las siguientes tablas de datos:\nDuración: ~15 minutos\nPara resolver el ejercicio:\n\nPueden insertar una nueva tabla (Menú Insertar -&gt; Tabla) y organizar los atributos y observaciones según consideren.\nDibujar la tabla en un papel, sacarle una foto y copiarla en el documento\n\n\n1) Rendimientos:\n\n\n\n\n\n\n\n\n\n\n\n\nLote\n2009 avg\n2009 max\n2009 min\n2010 avg\n2010 max\n2010 min\n\n\nA\n-\n-\n-\n-\n-\n-\n\n\n18\n&gt;95%\n&gt;95%\n&gt;95%\n&gt;95%\n&gt;95%\n&gt;95%\n\n\nLa loma\n77%\n89%\n3%\n75%\n88%\n3%\n\n\nA2\n25%\n35%\n19%\n25%\n35%\n19%\n\n\n\n\n\n2) Países\nTabla Casos\n\n\n\npais\n1999\n2000\n\n\nAfganistan\n745\n2666\n\n\nBrasil\n37737\n80488\n\n\nChina\n212258\n213766\n\n\n\nTabla población\n\n\n\npais\n1999\n2000\n\n\nAfganistan\n19987071\n20595360\n\n\nBrasil\n172006362\n174504898\n\n\nChina\n1272915272\n1280428583\n\n\n\n\n\n\n\n\n\nDocumento compartido de ejercicios\n\n\n\nEsta es una plantilla del documento compartido en google docs. Se debe generar un archivo por cada grupo. Se deben repetir los grupos de la clase anterior ya que se trabajará sobre los resultados de los ejercicios de clase 2."
   },
   {
+    "objectID": "clase3.html#lecturas-sugeridas",
+    "href": "clase3.html#lecturas-sugeridas",
+    "title": "Clase 3 - Diseño de Bases de Datos Relacionales",
+    "section": "Lecturas sugeridas",
+    "text": "Lecturas sugeridas\n\nModulo 4 del libro Bases de datos. Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5."
+  },
+  {
     "objectID": "clase9.html#slides",
     "href": "clase9.html#slides",
     "title": "Clase 9",
