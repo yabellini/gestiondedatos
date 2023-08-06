@@ -4,10 +4,20 @@ title: "Clase 5 - El lenguaje estándar SQL"
 
 ## Objetivos de Aprendizaje
 
+* Identificar 3 sentencias principales de definición de base de datos del lenguaje SQL.
 
+* Asociar cada elemento de un DER con la sentencia SQL correspondiente para crear tablas.
+
+* Identificar claves primarias y foráneas en un DER y crearlas utilizando la sentencia CREATE de SQL.
+
+* Asociar los dominios de los atributos en un DER y las restricciones de columnas y como se implementan al crear las tablas con SQL. 
+
+* Borrar tablas de base de datos utilizando DROP.
+
+* Modificar tablas de base de datos utilizando ALTER.
 
 ## Slides
 
 <iframe src="https://docs.google.com/presentation/d/1rhBAxf0GiJZQ77lgC6-9JqvDA1EH5r5a9E7uOjBaJk8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
+## Ejercicios
