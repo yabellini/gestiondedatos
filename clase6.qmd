@@ -1,5 +1,5 @@
 ---
-title: "Clase 6"
+title: "Clase 6 - El lenguaje estándar SQL"
 ---
 
 ## Objetivos de Aprendizaje
