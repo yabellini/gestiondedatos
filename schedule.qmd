@@ -14,12 +14,12 @@ Ejemplo de cronograma de clases:
 | **Clase 5**                        | **Primer trabajo de evaluación - El lenguaje estándar SQL.** |
 | Clase 6                            | El lenguaje estándar SQL.                                    |
 | **Clase 7**                        | **Recuperatorio - El lenguaje estándar SQL.**                |
-| Clase 8                            | Feriado                                                      |
-| Clase 9                            | R y Tidyverse para manejo de datos.                          |
+                                                    |
+| Clase 8                            | R y Tidyverse para manejo de datos.                          |
+| Clase 9                           | R y Tidyverse para manejo de datos.                          |
 | Clase 10                           | R y Tidyverse para manejo de datos.                          |
-| Clase 11                           | R y Tidyverse para manejo de datos.                          |
-| **Clase 12**                       | **Segundo trabajo de evaluación**                            |
-| **Clase 13**                       | **Recuperatorio**                                            |
-| **Clase 14**                       | **Cierre notas y materia**                                   |
+| **Clase 11**                       | **Segundo trabajo de evaluación**                            |
+| **Clase 12**                       | **Recuperatorio**                                            |
+| **Clase 13**                       | **Cierre notas y materia**                                   |
 | **Rango de fechas de inscripción** | **Inscripción finales**                                      |
 | **Fechas de Finales**              | **Mesas de Finales**                                         |
