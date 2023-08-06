@@ -189,10 +189,38 @@
     "text": "Ejercicios\n\n1) Miren los siguientes tres videos sobre Ciencia de Datos y contesten en grupo las preguntas:\nDuración total: ~20 minutos\n\nVideo 1: (1:30 minutos)\nBIG DATA: Oportunidades y desafíos\nCharlar en grupo para contestar esta pregunta (5 minutos)\n\n¿Cuál es el contexto y la oportunidad que menciona el especialista en el video con respecto de los datos?\n\n\n\nVideo 2: (1:10 minutos)\nBIG DATA: Oportunidades y desafíos II\nCharlar en grupo para contestar estas preguntas (7 minutos)\n\nEste video es del 2017, ¿les parece que algo ha cambiado con respecto a la comunidad de organizaciones y/o empresas que aprovechan estas tecnologías?,\n¿Se les ocurren ejemplos de Argentina?\n\n\n\nVideo 3: (2:00 minutos)\nBIG DATA: Oportunidades y desafíos III\nCharlar en grupo para contestar estas preguntas (5 minutos)\n\n¿Qué roles menciona dentro de lo que se conoce como Ciencia de Datos?\n¿Se ven reflejados en alguno de esos roles?\n\n\n\n\n2) Miren el video de este club deportivo que utiliza Ciencia de Datos, discutan en grupo para contestar las siguientes preguntas:\nDuración: ~15 minutos Video: (5 minutos): Big Data y fútbol: así aprovecha el Real Madrid la tecnología\nCharlar en grupo para contestar estas preguntas (10 minutos):\n¿Cómo toman los datos de los jugadores?\nAnoten algunos de los datos que se mencionan que se registran y alguna de las\n¿Mencionan modelos?¿Cuáles?\n\n\n\n\n\n\nDocumento compartido para resolver ejercicios\n\n\n\nEsta es una plantilla del documento compartido utilizando google docs. Se debe generar un archivo por cada grupo. Los grupos se recomiendan que sean entre dos a cuatro personas."
   },
   {
+    "objectID": "clase5.html",
+    "href": "clase5.html",
+    "title": "Clase 5 - El lenguaje estándar SQL",
+    "section": "",
+    "text": "Identificar 3 sentencias principales de definición de base de datos del lenguaje SQL.\nAsociar cada elemento de un DER con la sentencia SQL correspondiente para crear tablas.\nIdentificar claves primarias y foráneas en un DER y crearlas utilizando la sentencia CREATE de SQL.\nAsociar los dominios de los atributos en un DER y las restricciones de columnas y como se implementan al crear las tablas con SQL.\nBorrar tablas de base de datos utilizando DROP.\nModificar tablas de base de datos utilizando ALTER."
+  },
+  {
+    "objectID": "clase5.html#objetivos-de-aprendizaje",
+    "href": "clase5.html#objetivos-de-aprendizaje",
+    "title": "Clase 5 - El lenguaje estándar SQL",
+    "section": "",
+    "text": "Identificar 3 sentencias principales de definición de base de datos del lenguaje SQL.\nAsociar cada elemento de un DER con la sentencia SQL correspondiente para crear tablas.\nIdentificar claves primarias y foráneas en un DER y crearlas utilizando la sentencia CREATE de SQL.\nAsociar los dominios de los atributos en un DER y las restricciones de columnas y como se implementan al crear las tablas con SQL.\nBorrar tablas de base de datos utilizando DROP.\nModificar tablas de base de datos utilizando ALTER."
+  },
+  {
     "objectID": "clase5.html#slides",
     "href": "clase5.html#slides",
     "title": "Clase 5 - El lenguaje estándar SQL",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "clase5.html#ejercicios",
+    "href": "clase5.html#ejercicios",
+    "title": "Clase 5 - El lenguaje estándar SQL",
+    "section": "Ejercicios",
+    "text": "Ejercicios"
+  },
+  {
+    "objectID": "clase5.html#lecturas-sugeridas",
+    "href": "clase5.html#lecturas-sugeridas",
+    "title": "Clase 5 - El lenguaje estándar SQL",
+    "section": "Lecturas sugeridas",
+    "text": "Lecturas sugeridas\n\nModulo 4 del libro Bases de datos. Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5."
   }
 ]
