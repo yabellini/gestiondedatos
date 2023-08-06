@@ -4,10 +4,22 @@ title: "Clase 3 - Diseño de Bases de Datos Relacionales"
 
 ## Objetivos de Aprendizaje
 
+* Analizar un conjunto de requerimientos y plazmarlos en un modelo de datos.
 
+* Definir e identificar el grado y la cardinalidad de una relación.
+
+* Definir que es un modelo relacional.
+
+* Definir e identificar una tabla y diferentes tipos de atributos en una entidad.
+
+* Definir e identificar clave candidata, clave primaria, clave foránea.
+
+* Leer y generar modelos relacionales e identificar sus componentes.
 
 ## Slides
 
 <iframe src="https://docs.google.com/presentation/d/1DLVQkKY8olxZXSl2FHHzHK8KLWklF-Gtwwe51YYxGRg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+
+## Ejercicios
 
