@@ -22,17 +22,17 @@ website:
       - href: clase1.qmd
         text: Clase 1 - Introducción
       - href: clase2.qmd
-        text: Clase 2 -
+        text: Clase 2 - Modelos de datos
       - href: clase3.qmd
-        text: Clase 3
+        text: Clase 3 - Diseño de Bases de Datos
       - href: clase4.qmd
-        text: Clase 4
+        text: Clase 4 - Diseño de Bases de Datos
       - href: clase5.qmd
-        text: Clase 5
+        text: Clase 5 - SQL
       - href: clase6.qmd
-        text: Clase 6
+        text: Clase 6 - SQL
       - href: clase7.qmd
-        text: Clase 7
+        text: Clase 7 - SQL
       - href: clase8.qmd
         text: Clase 8
       - href: clase9.qmd
