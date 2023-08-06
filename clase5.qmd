@@ -94,6 +94,38 @@ Una vez creado descarguen el *esquema de la base de datos* y subanlo al campus e
 Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1xskbqldByxcj1pMwEWpYWur9jPOlc08hr_3_z3j4fOM/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
 :::
 
+## Ejercicios de práctica extra
+
+Para cada diagrama:
+
+1.  Crear la base de datos. 
+
+    1.  Definir el dominio de los distintos atributos
+
+    2.  Definir correctamente las PK y FK de cada tabla.
+
+2.  Cargar 5 registros para cada tabla utilizando los datos provistos. **Opcional, pueden dejarlo para la semana que viene cuando revisemos mejor este tema.**
+
+3.  Exportar el SQL y subirlo al foro de la Clase 5.
+
+#### Ejercicio 1
+
+[Pinguinos](https://drive.google.com/file/d/1KKHJ2XBSWhxAyvupu19U283bYyx8LVCP/view?usp=sharing): Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica.
+
+![DER Pingüinos](img/pinguinos.png){fig-alt="DER con las tablas Isla y Pingüinos"}
+
+#### Ejercicio 2
+
+[Bateadores](https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing): estadísticas de bateadores de beisbol.
+
+![DER Bateadores](img/bateadores.png){fig-alt="DER con las tablas Bateadores, Equipos, Ligas y Batedores-Equipos."}
+
+#### **Ejercicio 3**
+
+[Alojamiento](https://campus.unab.edu.ar/mod/resource/view.php?id=31685): datos de AirBnB en Buenos Aires.
+
+![DER AirBnB](img/airbnb.png){fig-alt="DER con las tablas Alojamientos, Anfitriones, Tipo de Alojamientos y Alojamientos-Tipos"}
+
 ## Lecturas sugeridas
 
 -   Modulo 4 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
