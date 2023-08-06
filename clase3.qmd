@@ -85,3 +85,7 @@ Tabla población
 
 Esta es una [plantilla del documento compartido](https://docs.google.com/document/d/1h_654Tv0vKOxEXAKFiLFlTlXtzXFPOkJt04zIba-Nq0/edit?usp=sharing) en google docs. Se debe generar un archivo por cada grupo. Se deben repetir los grupos de la clase anterior ya que se trabajará sobre los resultados de los ejercicios de clase 2.
 :::
+
+## Lecturas sugeridas
+
+* Modulo 4 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
