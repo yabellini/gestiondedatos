@@ -1,4 +1,6 @@
-M--- title: "Clase 4 - Diseño de Bases de Datos Relacionales" ---
+--- 
+title: "Clase 4 - Diseño de Bases de Datos Relacionales"
+---
 
 ## Objetivos de Aprendizaje
 
