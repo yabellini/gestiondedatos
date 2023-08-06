@@ -80,31 +80,37 @@ Esta es una [plantilla del documento compartido](https://docs.google.com/present
 
 Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
 
-![Diagrama Entidad Relación](img/Grupo1-Ejercicio2-Clase4.png){fig-alt="Diagrama Entidad Relación con dos tablas: Aeropuertos y Medidas"}
+![Diagrama Entidad Relación de mediciones de tiempo y clima en aeropuertos](img/Grupo1-Ejercicio2-Clase4.png){fig-alt="Diagrama Entidad Relación con dos tablas: Aeropuertos y Medidas"}
 
 #### Grupo 2
 
 Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
 
-![Diagrama de Entidad Relación](img/Grupo2-Ejercicio2-Clase4.png){fig-alt="Diagrama de Entidad Relación con tablas de vehículos, clases, transmiciones, motores, tracciones, frabicantes, combustibles y modelos."}
+![Diagrama de Entidad Relación de Vehículos](img/Grupo2-Ejercicio2-Clase4.png){fig-alt="Diagrama de Entidad Relación con tablas de vehículos, clases, transmiciones, motores, tracciones, frabicantes, combustibles y modelos."}
 
 #### Grupo 3
 
 Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
 
-![Diagrama de Entidad Relación](img/Grupo3-Ejercicio2-Clase4.png){fig-alt="Diagrama de Entidad Relación con las tablas Isla y Pingüinos"}
+![Diagrama de Entidad Relación de Pingüinos](img/Grupo3-Ejercicio2-Clase4.png){fig-alt="Diagrama de Entidad Relación con las tablas Isla y Pingüinos"}
 
 #### Grupo 4
 
 Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
 
+![Diagrama de Entidad Relación de bateadores](img/Grupo4-Ejercicio2-Clase4.png){fig-alt="DER con tablas Bateador, Equipos, Ligas y Bateador-Equipos"}
+
 #### Grupo 5
 
 Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
 
+![Diagrama de Entidad-Relación de Aviones](img/Grupo5-Ejercicio2-Clase4.png){fig-alt="DER con Aviones y Fabricantes"}
+
 #### Grupo 6
 
 Seleccionar una relación para aplicar integridad referencial. Explicar que pasa en cada tabla si se eliminan, agregan o modifican registros.
+
+![Diagrama de Entidad-Relación de Docentes](img/Grupo6-Ejercicio2-Clase4.png){fig-alt="DER con tablas de docentes, materias, titulos, universidades y trabajos"}
 
 ::: callout-tip
 ## Documento compartido de ejercicios
