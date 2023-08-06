@@ -152,3 +152,9 @@ Quienes trabajan asincrónicamente deben agregar su nombre en las slides que use
 
 Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1DzIdDTUNolTG3rgXm3AnH6rD5XhvWy1lNIkAOc1Wa00/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
 :::
+
+## Lecturas sugeridas
+
+* Modulo 4 del libro [Bases de datos](https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf). Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5.
+
+* [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf). Hadley Wickham (en inglés)
