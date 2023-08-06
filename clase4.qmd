@@ -118,7 +118,32 @@ Seleccionar una relación para aplicar integridad referencial. Explicar que pasa
 Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1OqsjZD6r4vZ3MRN51mn03rWniT-_Uz0JFUP7Ar1Gy4w/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase. Es una buena idea utilizar los diagramas que los estudiantes generaron en la clase anterior. De ser así, se deben repetir los grupos.
 :::
 
-### Ejercicio 3
+### Ejercicio 3 
+
+Normalizar los Datos de alojamientos en Buenos Aires listados en AirBnB teniendo en cuenta las formas normales (pueden ver una muestra de los datos en el campus en la solapa de la clase 4). Si llegan a tablas intermedias indicar que forma normal tienen. 
+
+##### Tabla descriptiva de los datos
+
+|                         |           |                                                                                                                                                                                                                                                                   |
+|-------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Variable**            | **Clase** | **Descripción**                                                                                                                                                                                                                                                   |
+| id                      | numérica  | identificador del alojamiento                                                                                                                                                                                                                                     |
+| descripcion             | caracter  | nombre descriptivo (en inglés) del alojamiento                                                                                                                                                                                                                    |
+| id_anfitrion            | numérica  | identificador del/la anfitrión/a                                                                                                                                                                                                                                  |
+| nombre_anfitrion        | caracter  | nombre del/la anfitrión/a                                                                                                                                                                                                                                         |
+| anfitrion_desde         | fecha     | fecha de la inscripción como anfitrión/a                                                                                                                                                                                                                          |
+| superanfitrion          | lógica    | si tiene o no la categoría de "Súper Anfitrión"                                                                                                                                                                                                                   |
+| barrio                  | caracter  | nombre del barrio en que se ubica la propiedad                                                                                                                                                                                                                    |
+| latitud                 | numérica  | latitud de la ubicación de la propiedad                                                                                                                                                                                                                           |
+| longitud                | numérica  | longitud de la ubicación de la propiedad                                                                                                                                                                                                                          |
+| tipo_alojamiento        | caracter  | Si corresponde a un alojamiento_entero, habitacion_privada o habitacion_compartida. Puede estar listado con más de un tipo de alojamiento separado por punto y coma.                                                                                              |
+| precio                  | numérica  | precio por noche en moneda local                                                                                                                                                                                                                                  |
+| huéspedes               | numérica  | cantidad de huéspedes que puede recibir la propiedad                                                                                                                                                                                                              |
+| política de cancelación | caracter  | tipo de política de cancelación (flexible, moderada, estricta, estricta_con_gracia (período de gracia de 14 días), superestricta_30 (50% de reembolso hasta 30 días antes de la llegada) y superestricta_60 (50% de reembolso hasta 60 días antes de la llegada). |
+
+Pueden agregar más slides si necesitan. 
+
+Quienes trabajan asincrónicamente deben agregar su nombre en las slides que usen.
 
 ::: callout-tip
 ## Documento compartido de ejercicios
