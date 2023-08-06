@@ -18,14 +18,14 @@
     "href": "clase2.html",
     "title": "Clase 2 - Modelos de datos",
     "section": "",
-    "text": "Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.\nDefnir base de datos.\nDescribir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.\nDefinir base de datos relacional.\nDefinir Entidad, Relación, Atributo y Dominio.\nIdentificar Entidades, Relaciones, Atributos y Dominios.\nAnalizar y leer Modelos de Entidad Relación (MER)."
+    "text": "Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.\nDefinir base de datos.\nDescribir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.\nDefinir base de datos relacional.\nDefinir Entidad, Relación, Atributo y Dominio.\nIdentificar Entidades, Relaciones, Atributos y Dominios.\nAnalizar y leer Modelos de Entidad Relación (MER).\nGenerar Modelos de Entidad Relación."
   },
   {
     "objectID": "clase2.html#objetivos-de-aprendizaje",
     "href": "clase2.html#objetivos-de-aprendizaje",
     "title": "Clase 2 - Modelos de datos",
     "section": "",
-    "text": "Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.\nDefnir base de datos.\nDescribir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.\nDefinir base de datos relacional.\nDefinir Entidad, Relación, Atributo y Dominio.\nIdentificar Entidades, Relaciones, Atributos y Dominios.\nAnalizar y leer Modelos de Entidad Relación (MER)."
+    "text": "Definir Ciencia de Datos, Minería de Datos, Aprendizaje Automático, Inteligencia Artificial y Big Data.\nDefinir base de datos.\nDescribir al menos tres problemas que tienen los archivos de textos que son resueltos por las bases de datos.\nDefinir base de datos relacional.\nDefinir Entidad, Relación, Atributo y Dominio.\nIdentificar Entidades, Relaciones, Atributos y Dominios.\nAnalizar y leer Modelos de Entidad Relación (MER).\nGenerar Modelos de Entidad Relación."
   },
   {
     "objectID": "clase2.html#slides",
@@ -33,6 +33,13 @@
     "title": "Clase 2 - Modelos de datos",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "clase2.html#ejercicios",
+    "href": "clase2.html#ejercicios",
+    "title": "Clase 2 - Modelos de datos",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\n1) Miren el video de esta empresa AgTech que utiliza Ciencia de Datos, discutan en grupo para contestar las siguientes preguntas:\nDuración: ~8 minutos\nVideo: (2:00 minutos) Conocé kilimo\nCharlar en grupo para contestar estas preguntas (8 minutos):\n\n¿Cuál es el servicio que brindan? \n¿Pueden identificar las 3 Vs del BigData en este servicio? mencione como está representada y porqué.\n¿Les parece que el servicio es exitoso?, ¿Por qué?\n\n\n\n\n2) Miren el video de esta municipalidad que utiliza Ciencia de Datos, discutan en grupo para contestar las siguientes preguntas:\nDuración: ~8 minutos\nVideo: (2:30 minutos)Manos en la Data\nCharlar en grupo para contestar estas preguntas (7:30 minutos):\n\n¿Sobre qué servicio trabajaron? \n¿Qué tecnologías relacionadas con Ciencia de Datos se mencionan en el video? \n¿Qué datos utilizan?, Identifiquen algunas de las dimensiones que vimos en la teoría.\n¿Pueden identificar las 3 Vs del BigData en este servicio? mencione como está representada.\n\n\n\n3) Miren este videos sobre transacciones ACID en Base de Datos y contesten en grupo las preguntas:\nDuración: ~15 minutos\nVideo 1: (5:11 minutos) ACID Transactions: Fundamentos de bases de datos\nPara trabajar en grupos: definan con sus palabras que significan cada una de las letras de ACID (5 minutos)\n\nA:\nC:\nI:\nD:\n\n¿Cómo se relacionan estas cualidades con los problemas mencionados con los sistemas de archivos? \n\n\n4) A partir del análisis de este conjunto de datos, generen el diagrama de Entidad-Relación:\nDuración: ~15 minutos\n\nMiren el conjunto de datos que le corresponde a su grupo (Revisar: Listado de bases de datos).\nA partir del análisis de este conjunto de datos, dibujen el Diagrama Entidad-Relación correspondiente.\n\nPueden realizar este ejercicio de dos maneras:\n\nUna persona comparte la pantalla y dibuja el diagrama que se discute con el resto del grupo.\nComparten el link entre todes para que puedan editar el diagrama en conjunto.\n\nUsen esta herramienta para dibujar el diagrama: https://excalidraw.com\nLuego coloquen el diagrama en este documento.  Pueden exportarlo como imágen e insertarlo en el documento.\n3) Definir el dominio de cada atributo completando la siguiente tabla:\n\n\n\nNombre atributo\nTipo \nRango de valores válidos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nEsta es una plantilla del documento compartido en google docs. Se debe generar un archivo por cada grupo. Se recomienda que los grupos tengan entre dos y cuantro personas."
   },
   {
     "objectID": "index.html",
@@ -65,7 +72,7 @@
   {
     "objectID": "clase6.html#slides",
     "href": "clase6.html#slides",
-    "title": "Clase 6",
+    "title": "Clase 6 - El lenguaje estándar SQL",
     "section": "Slides",
     "text": "Slides"
   },
@@ -81,7 +88,7 @@
     "href": "schedule.html",
     "title": "Cronograma de actividades / Planificación de clases",
     "section": "",
-    "text": "Ejemplo de cronograma de clases:\n\n\n\n\n\n\n\nFechas\nTemas\n\n\nClase 1\nSistemas de bases de Datos. Nociones de Minería de Datos\n\n\nClase 2\nModelos de datos: Modelo Entidad-Relación, Modelo Racional.\n\n\nClase 3\nDiseño de Bases de Datos Relacionales.\n\n\nClase 4\nDiseño de Bases de Datos Relacionales.\n\n\nClase 5\nPrimer trabajo de evaluación - El lenguaje estándar SQL.\n\n\nClase 6\nEl lenguaje estándar SQL.\n\n\nClase 7\nRecuperatorio - El lenguaje estándar SQL.\n\n\nClase 8\nFeriado\n\n\nClase 9\nR y Tidyverse para manejo de datos.\n\n\nClase 10\nR y Tidyverse para manejo de datos.\n\n\nClase 11\nR y Tidyverse para manejo de datos.\n\n\nClase 12\nSegundo trabajo de evaluación\n\n\nClase 13\nRecuperatorio\n\n\nClase 14\nCierre notas y materia\n\n\nRango de fechas de inscripción\nInscripción finales\n\n\nFechas de Finales\nMesas de Finales"
+    "text": "Ejemplo de cronograma de clases:\n\n\n\n\n\n\n\nFechas\nTemas\n\n\nClase 1\nSistemas de bases de Datos. Nociones de Minería de Datos\n\n\nClase 2\nModelos de datos: Modelo Entidad-Relación, Modelo Racional.\n\n\nClase 3\nDiseño de Bases de Datos Relacionales.\n\n\nClase 4\nDiseño de Bases de Datos Relacionales.\n\n\nClase 5\nPrimer trabajo de evaluación - El lenguaje estándar SQL.\n\n\nClase 6\nEl lenguaje estándar SQL.\n\n\nClase 7\nRecuperatorio - El lenguaje estándar SQL.\n\n\n\n\n\n\nClase 8\nR y Tidyverse para manejo de datos.\n\n\nClase 9\nR y Tidyverse para manejo de datos.\n\n\nClase 10\nR y Tidyverse para manejo de datos.\n\n\nClase 11\nSegundo trabajo de evaluación\n\n\nClase 12\nRecuperatorio\n\n\nClase 13\nCierre notas y materia\n\n\nRango de fechas de inscripción\nInscripción finales\n\n\nFechas de Finales\nMesas de Finales"
   },
   {
     "objectID": "clase4.html",
@@ -135,7 +142,7 @@
   {
     "objectID": "clase5.html#slides",
     "href": "clase5.html#slides",
-    "title": "Clase 5",
+    "title": "Clase 5 - El lenguaje estándar SQL",
     "section": "Slides",
     "text": "Slides"
   }
