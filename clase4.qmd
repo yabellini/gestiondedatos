@@ -122,7 +122,7 @@ Esta es una [plantilla del documento compartido](https://docs.google.com/present
 
 Normalizar los Datos de alojamientos en Buenos Aires listados en AirBnB teniendo en cuenta las formas normales (pueden ver una muestra de los datos en el campus en la solapa de la clase 4). Si llegan a tablas intermedias indicar que forma normal tienen. 
 
-##### Tabla descriptiva de los datos
+##### Tabla descriptiva de los datos AirBnB en Buenos Aires
 
 |                         |           |                                                                                                                                                                                                                                                                   |
 |-------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
