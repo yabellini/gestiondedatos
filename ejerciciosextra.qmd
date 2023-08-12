@@ -234,7 +234,7 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 22. Listar todos los clientes que sean atenidos por el empleado de apellido Park.
 
-##  de ejercicios prácticos unidad 4 - R
+## Guía de ejercicios prácticos unidad 4 - R
 
 ### En R y usando la base de datos de mamíferos
 
