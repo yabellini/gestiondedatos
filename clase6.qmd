@@ -68,7 +68,6 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 | 21923888782 | MAPED        |           | 1                  |
 | 43456183145 | DOS BANDERAS |           | 1                  |
 
-
 #### Tabla PRODUCTO
 
 -   Agreguen estos datos a la tabla PRODUCTO
@@ -83,22 +82,27 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 | 3          | LAPICES 12 COLORES LARGOS |   500 | 650,90 |
 | 4          | GOMA DE BORRAR LAPIZ      |   300 |  35,50 |
 
-Facturas
 
-Generar los registros en las tablas de encabezado y detalle de factura para vender los siguientes productos:
+-   Exporten el SQL Schema y suban el archivo al campus.
 
--   La Papelera compró 100 cajas de hojas de carpeta N° 3 rivadavia y  50 gomas de borrar MAPED.
+#### Entidad FACTURAS
 
--   El grafito compró 200 cuadernos ABC y 75 cajas de lápices de 12 colores largos.
+-   Generar los registros en las tablas de encabezado y detalle de factura para vender los siguientes productos:
 
--   Chequeen con SELECT que los datos fueron agregados correctamente.Descarguen los datos como CSV y suban el archivo al campus.
+    -   La Papelera compró 100 cajas de hojas de carpeta N° 3 Rivadavia y 50 gomas de borrar MAPED.
 
-Actualización de datos
+    -   El Grafito compró 200 cuadernos ABC y 75 cajas de lápices de 12 colores largos.
+
+-   Chequeen con SELECT que los datos fueron agregados correctamente.
+
+-   Descarguen los datos como CSV y suban el archivo al campus.
+
+#### Actualización de datos
 
 -   Actualicen el campo STOCK de la tabla de productos para que refleje los cambios en el stock luego de las ventas a La Papelera y a El Grafito.
 
 -   Cuando terminen descarguen los datos en formato CSV y subanlo al campus.
 
--   
 
--   Exporten el SQL Schema y suban el archivo al campus.
+
+
