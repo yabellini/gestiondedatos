@@ -174,9 +174,73 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 ![](img/chinookDER.png){fig-alt="DER de la base de datos Chinook."}
 
-## Guía de ejercicios prácticos unidad 4
+### Ejercicios de manipulación de estructuras y de datos
 
-Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.
+1.  Escribir las sentencias SQL para **CREAR** las tablas Track, MediaType y Genre.
+
+2.  Escribir la sentencia SQL para **INSERTAR** un nuevo registro en la tabla Customer (usar sus datos personales como datos en la sentencia).
+
+3.  Escribir la sentencia SQL para **ACTUALIZAR** el precio unitario de todas las pistas del Álbum número 14 a 5 dólares.
+
+### Ejercicios de consultas
+
+1.  Listar todos los empleados que son de la ciudad Calgary.
+
+2.  Listar todas las facturas cuyo total sea mayor a 10 y el país sea igual a Chile.
+
+3.  Listar el nombre de la pista y el título del álbum ordenado de forma ascendente por título del álbum.
+
+4.  Listar el id de la factura, los nombres de las pistas y la cantidad de vendida de todas las facturas cuyo ID sea menor a 10.
+
+5.  Listar los nombres de las pistas vendidas, y cuántas se vendieron (este dato está en Cantidad - Quantity), ordenar de forma descendente por este último dato.
+
+6.  Listar cada playlist con el total de pistas que tiene cada una.
+
+7.  Los Bytes indican cuando ocupa cada pista en formato digital.  Listar el máximo, el mínimo, el promedio y el total de bytes de todas las pistas.
+
+8.  Modificar la consulta anterior para hacer los mismos cálculos pero con la duración de cada pista.  Está medida en milisegundos (Milliseconds).
+
+9.  Listar cuantas pistas tiene cada tipo de Medio, mostrando el nombre del tipo de medio y la cantidad ordenado de mayor a menor.
+
+10. Obtener un listado sin repetir de los países de los clientes y otro de los empleados.Luego generar una sola lista con ambas consultas.
+
+11. Mostrar una lista de todos los artistas en orden alfabético.
+
+12. Mostrar la cantidad de álbumes por artistas y ordenar la información en orden alfabético por nombre de artista.
+
+13. Calcular el promedio de ventas por país.
+
+14. Buscar el nombre de la pista (track) más cara y la más barata.
+
+15. General una tabla que combine el nombre completo del cliente y del empleado que lo atendió.
+
+16. Contar la cantidad de pistas por género.
+
+17. Modificar la consulta anterior para mostrar el nombre del género en la lista en vez del id. 
+
+18. Calcular la duración promedio de las pistas por género.
+
+19. Calcular la duración total de cada álbum y mostrarlos de más a menos largo.
+
+20. Modificar la consulta anterior para incluir el nombre del artista y el genero. 
+
+## Guía de ejercicios prácticos unidad 4 - R
+
+### En R y usando la base de datos de mamíferos
+
+1.  De la tabla survey seleccionar la fecha completa.
+
+2.  Filtrar los registros para el año 1977
+
+3.  Calcular el promedio del tamaño de tobillo (hindfoot) para las distintas especies. 
+
+4.  ¿Cuál es el animal más pesado medido cada año?
+
+5.  A partir de la tabla de especies, escribir una consulta que una las tablas species y de surveys para excluir a todos los no roedores (Rodent en la variable genus). La consulta debe devolver los recuentos de roedores por año.
+
+### Utilizando la base de datos Chinook 
+
+Resolver los siguientes ejercicios en R. La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.
 
 -   Invoice = Factura
 -   InvoiceLine = Detalle de la factura
@@ -191,5 +255,3 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 -   PlaylistTrack = pistas por lista de reproducción
 
 ![](img/chinookDER.png){fig-alt="DER de la base de datos Chinook."}
-
-## 
