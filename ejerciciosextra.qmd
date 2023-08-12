@@ -182,6 +182,12 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 3.  Escribir la sentencia SQL para **ACTUALIZAR** el precio unitario de todas las pistas del Álbum número 14 a 5 dólares.
 
+4.  Escribir las sentencias SQL para **CREAR** las tablas Artist y Album.
+
+5.  Escribir la sentencia SQL para **INSERTAR** un nuevo registro en la tabla MediaType (el tipo nuevo sería: digital plataforma Spotify).
+
+6.  Escribir la sentencia SQL para **ACTUALIZAR** el precio unitario de todas las pistas de los álbunes número 16 y 17 con un aumento de un 250%.
+
 ### Ejercicios de consultas
 
 1.  Listar todos los empleados que son de la ciudad Calgary.
@@ -194,7 +200,7 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 5.  Listar los nombres de las pistas vendidas, y cuántas se vendieron (este dato está en Cantidad - Quantity), ordenar de forma descendente por este último dato.
 
-6.  Listar cada playlist con el total de pistas que tiene cada una.
+6.  Escribir la sentencia SQL para listar cuantas pistas tiene cada PlayList, mostrando el nombre de la playlist y la cantidad de pistar ordenado de mayor a menor.
 
 7.  Los Bytes indican cuando ocupa cada pista en formato digital.  Listar el máximo, el mínimo, el promedio y el total de bytes de todas las pistas.
 
@@ -202,7 +208,7 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 9.  Listar cuantas pistas tiene cada tipo de Medio, mostrando el nombre del tipo de medio y la cantidad ordenado de mayor a menor.
 
-10. Obtener un listado sin repetir de los países de los clientes y otro de los empleados.Luego generar una sola lista con ambas consultas.
+10. Obtener un listado sin repetir de los países de los clientes y otro de los empleados. Luego generar una sola lista con ambas consultas.
 
 11. Mostrar una lista de todos los artistas en orden alfabético.
 
@@ -212,11 +218,11 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 14. Buscar el nombre de la pista (track) más cara y la más barata.
 
-15. General una tabla que combine el nombre completo del cliente y del empleado que lo atendió.
+15. Generar una tabla que combine el nombre completo del cliente y del empleado que lo atendió.
 
-16. Contar la cantidad de pistas por género.
+16. Escribir la sentencias SQL paran listar cuantas pistas tiene cada tipo de Genre.
 
-17. Modificar la consulta anterior para mostrar el nombre del género en la lista en vez del id. 
+17. Modificar la consulta anterior para mostrar el nombre del género en la lista en vez del id y la cantidad ordenado de mayor a menor. 
 
 18. Calcular la duración promedio de las pistas por género.
 
@@ -224,7 +230,11 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 20. Modificar la consulta anterior para incluir el nombre del artista y el genero. 
 
-## Guía de ejercicios prácticos unidad 4 - R
+21. Escribir las sentencias SQL para obtener un listado sin repetir de las ciudades de los clientes y otro de las ciudades de los empleados.
+
+22. Listar todos los clientes que sean atenidos por el empleado de apellido Park.
+
+##  de ejercicios prácticos unidad 4 - R
 
 ### En R y usando la base de datos de mamíferos
 
