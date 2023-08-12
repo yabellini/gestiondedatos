@@ -39,6 +39,10 @@ website:
         text: Clase 9 -  R
       - href: clase10.qmd
         text: Clase 10 - SQL
+      - href: ejerciciosextra.qmd
+        text: Guía de Ejercicios
+      - href: evaluaciones.qmd
+        text: Parciales y Finales
 format:
   html:
     theme: sandstone
