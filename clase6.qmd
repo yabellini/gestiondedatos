@@ -102,6 +102,13 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 
 -   Cuando terminen descarguen los datos en formato CSV y subanlo al campus.
 
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/1yszzhR0_ixIeHIbKahPsOSLhYb2wdmNs-sFJVCyl8CY/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
+:::
+
+
 ### Ejercicio 2 - Trabajo en grupo
 
 1.  Descarguen la base de datos del campus.
@@ -144,6 +151,12 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 
 -   Se quiere expresar las mediciones **rad, sal** y **temp** como **radiacion**, **salinidad** y **temperatura** respectivamente. Escriba una consulta para modificar la columna **quant** y unir las tablas resultantes en una sola.
 
+::: callout-tip
+## Documento compartido de ejercicios
+
+Esta es una [plantilla del documento compartido](https://docs.google.com/presentation/d/18Y2M2U9jdVynoaPbbWk6SSJL-rZdrClsOb1DupdEWPk/edit?usp=sharing) utilizando google slides. Es el mismo archivo para toda la clase.
+:::
+
 ### Ejercicios de Tarea
 
 Para cada diagrama:
@@ -166,12 +179,18 @@ Para cada diagrama:
 
 Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica. <https://drive.google.com/file/d/1KKHJ2XBSWhxAyvupu19U283bYyx8LVCP/view?usp=sharing>
 
+![DER Pingüinos](img/pinguinos.png){fig-alt="DER con las tablas Isla y Pingüinos"}
+
 **Ejercicio 2 - Bateadores**
 
 Estadísticas de bateadores de beisbol
 
+![DER Bateadores](img/bateadores.png){fig-alt="DER con las tablas Bateadores, Equipos, Ligas y Batedores-Equipos."}
+
 <https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing>
 
 **Ejercicio 3 - AirBnB**
+
+![DER AirBnB](img/airbnb.png){fig-alt="DER con las tablas Alojamientos, Anfitriones, Tipo de Alojamientos y Alojamientos-Tipos"}
 
 Datos de AirBnB en Buenos Aires
