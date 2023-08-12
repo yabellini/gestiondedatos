@@ -4,6 +4,16 @@ title: "Clase 9"
 
 ## Objetivos de Aprendizaje
 
+* Conectar a una base de datos desde R.
+
+* Utilizar verbos tidyverse para seleccionar columnas y filtrar filas.
+
+* Escribir código R que permita modificar/generar columnas utilizando verbos tidyverse.
+
+* Entender qué es un NA en R y como afecta los resultados de una consulta.
+
+* Utilizar verbos de tidyverse para resumir información
+
 
 
 ## Slides
@@ -11,3 +21,26 @@ title: "Clase 9"
 <iframe src="https://docs.google.com/presentation/d/14HrL2rfVeg_IJL3OY6XYO8hw0HzcOKdep6bncU7UjuQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
+## Ejercicios
+
+Utilizando la misma base de datos con la que venimos trabajando y desde RStudio resolver los siguientes ejercicios y subir el código al campus. Uno por grupo!
+
+### 1. summarise(), group_by()
+
+1.  A partir de la tabla surveys, calcular la media, máximo, mínimo y cantidad de registros (usando la función n()) para la variable hindfoot_length.
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+2.  Modificar la consulta anterior (hacer una copia) para calcular la media, máximo, mínimo y cantidad de registros para la variable hindfoot_length por cada especie (specie_id). De nuevo:
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+3.  ¿Cual es la especie más común? _Pista: hay que agregar la función arrange()_
