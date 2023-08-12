@@ -238,9 +238,11 @@ Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figur
 
 5.  A partir de la tabla de especies, escribir una consulta que una las tablas species y de surveys para excluir a todos los no roedores (Rodent en la variable genus). La consulta debe devolver los recuentos de roedores por año.
 
-### Utilizando la base de datos Chinook 
+### Utilizando la base de datos Chinook
 
-Resolver los siguientes ejercicios en R. La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.
+Resolver los siguientes ejercicios en R en RStudio. La solución debe incluir el código necesario para leer las tablas utilizadas.
+
+La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.
 
 -   Invoice = Factura
 -   InvoiceLine = Detalle de la factura
@@ -255,3 +257,15 @@ Resolver los siguientes ejercicios en R. La figura presenta el Diagrama Entidad 
 -   PlaylistTrack = pistas por lista de reproducción
 
 ![](img/chinookDER.png){fig-alt="DER de la base de datos Chinook."}
+
+1.  Escribir el código necesario para **LISTAR** cuantas pistas tiene cada tipo de Medio, mostrando el nombre del tipo de medio y la cantidad ordenado de mayor a menor.
+
+2.  Escribir el código de R para obtener un listado sin repetir de los países de los clientes y otro de los empleados.
+
+3.  Escribir el código necesario para **LISTAR** cuantas pistas tiene cada tipo de Genre, mostrando el nombre del genero y la cantidad ordenado de mayor a menor.  
+
+4.  Escribir el código de R necesario para **ACTUALIZAR** el precio unitario de todas las pistas de los álbunes número 16 y 17 con un aumento de un 250%.
+
+5.  Escribir el código de R necesario para  **LISTAR** cuantas pistas tiene cada PlayList, mostrando el nombre de la playlist y la cantidad de pistar ordenado de mayor a menor.
+
+6.  Escribir el código de R necesario para **LISTAR** todos los clientes que sean atenidos por el empleado de apellido Park.
