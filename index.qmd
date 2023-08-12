@@ -70,7 +70,7 @@ R y tidyverse para consulta de datos. Manipulacion de datos.
 
 Se solicitará a los estudiantes que instalen software libre y gratuito para la realización de las prácticas de la materia:
 
--   SQLLite (gestor de base de datos): https://sqliteonline.com/, https://www.sqlite.org/index.html
+-   [SQLLite (gestor de base de datos)](https://sqliteonline.com/). 
 
 -   [R (lenguaje de programación)](https://www.r-project.org/)
 
