@@ -104,6 +104,46 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 
 ### Ejercicio 2 - Trabajo en grupo
 
+1.  Descarguen la base de datos del campus.
+
+2.  Entren a la interfaz de [SQLite On-line](https://sqliteonline.com/) y carguen la base de datos [survey.db](data/survey.db).
+
+3.  Escriban los SQL para resolver los ejercicios.
+
+4.  Suban los SQL al campus indicando el número de grupo que los resolvió.
+
+#### Seleccionar
+
+-   Escriba una consulta que seleccione todas las columnas de la tabla **site**
+
+-   Escriba una consulta que seleccione solo la columna personal de la tabla **person**.
+
+-   Escriba una consulta que seleccione todas las columnas de la tabla **survey** con la columna **reading** en primer lugar y la columna **person** en último lugar.
+
+**Ordenando y sacando duplicados**
+
+-   Escriba una consulta que remueva los duplicados de la columna **taken** de la tabla **survey**
+
+-   Escriba una consulta que devuelva todos los campos de la tabla **Visited** ordenados por fecha de forma descendente.
+
+-   Escriba una consulta que devuelva toda las columnas de la tabla **site** ordenados por latitud y longitud
+
+#### Filtrar
+
+-   Escriba una consulta que muestre todos los casos donde **reading** sea mayor a 5
+
+-   Modifica la consulta para que además **quant** sea **rad**.
+
+-   Escriba una consulta que devuelva todas las filas de **Visited** donde la fecha corresponda al año 1927
+
+####  Modificar columnas y uniones
+
+-   Las mediciones de salinidad tomadas por *Willian Dyer* tienen un error sistemático, su instrumento siempre mide 0.01 de menos. Escriba una consulta para corregir estos valores.
+
+-   Escriba una consulta para expresar las mediciones de temperatura en grados Kelvin (sumar 273.15 a grados Celsius)
+
+-   Se quiere expresar las mediciones **rad, sal** y **temp** como **radiacion**, **salinidad** y **temperatura** respectivamente. Escriba una consulta para modificar la columna **quant** y unir las tablas resultantes en una sola.
+
 ### Ejercicios de Tarea
 
 Para cada diagrama:
@@ -132,6 +172,6 @@ Estadísticas de bateadores de beisbol
 
 <https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing>
 
-**Ejercicio 3**
+**Ejercicio 3 - AirBnB**
 
 Datos de AirBnB en Buenos Aires
