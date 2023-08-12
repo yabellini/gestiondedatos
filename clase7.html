@@ -183,6 +183,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#objetivos-de-aprendizaje" id="toc-objetivos-de-aprendizaje" class="nav-link active" data-scroll-target="#objetivos-de-aprendizaje">Objetivos de Aprendizaje</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
+  <ul class="collapse">
+  <li><a href="#practica-sql" id="toc-practica-sql" class="nav-link" data-scroll-target="#practica-sql">1. Practica SQL</a></li>
+  <li><a href="#practica-joins-en-sql" id="toc-practica-joins-en-sql" class="nav-link" data-scroll-target="#practica-joins-en-sql">2. Practica JOINS en SQL</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -208,13 +213,81 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="objetivos-de-aprendizaje" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-de-aprendizaje">Objetivos de Aprendizaje</h2>
+<ul>
+<li><p>Entender que es un valor nulo y como afectan la selección de filas.</p></li>
+<li><p>Utilizar IS NULL/IS NOT NULL en la clausula WHERE para filtrar registros.</p></li>
+<li><p>Identificar cinco funciones para calcular datos de resumen de diferentes columnas.</p></li>
+<li><p>Utilizar las funciones de calculo en conjunto con la clausula GROUP BY.</p></li>
+<li><p>Identificar cuando es necesario realizar una unión de tablas y qué tipo de unión utilizar.</p></li>
+<li><p>utilizar los diferentes tipos de JOINS disponibles en una consulta de acuerdo a los datos necesarios en el conjunto de datos resultantes.</p></li>
+</ul>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <iframe src="https://docs.google.com/presentation/d/1M_c7wsDxp6VpL6V48ZSL0smykjY8wnb5Zdh94OrvM-c/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
+</section>
+<section id="ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
+<section id="practica-sql" class="level3">
+<h3 class="anchored" data-anchor-id="practica-sql">1. Practica SQL</h3>
+<ol type="1">
+<li><p>Descargar los archivos: <a href="data/Argenitna.csv">Argenitna.csv</a>, <a href="data/Chile.csv">Chile.csv</a> y <a href="data/Brazil.csv">Brazil.csv</a>.</p></li>
+<li><p>Importar los 3 archivos a <a href="https://sqliteonline.com/" class="uri">https://sqliteonline.com/</a>. Tener en cuenta que el separador es el punto y coma (;) y el nombre de las columnas está en la primera fila del archivo.</p></li>
+<li><p>Cuando hayan importado los tres archivos realicen las consultas y contesten las preguntas. <strong>Suban al foro todos los SQL con las respuestas. Un envio por grupo.</strong></p>
+<ol type="1">
+<li><p>Generar el SQL Schema y guardar ese código.</p></li>
+<li><p>Realizar una consulta que les permita contestar cuantas filas tiene cada país.</p>
+<ol type="1">
+<li><p>Argentina:</p></li>
+<li><p>Brasil:</p></li>
+<li><p>Chile:</p></li>
+</ol></li>
+<li><p>Realizar una consulta que les permita indicar el máximo de la población, el promedio de la expectativa de vida y el mínimo del PBI per cápita de cada país.</p>
+<ol type="1">
+<li><p>Argentina:</p></li>
+<li><p>Brasil:</p></li>
+<li><p>Chile:</p></li>
+</ol></li>
+<li><p>Realizar una consulta para saber sobre qué años (y cuantos años) tiene datos cada país.</p>
+<ol type="1">
+<li><p>Argentina:</p></li>
+<li><p>Brasil:</p></li>
+<li><p>Chile:</p></li>
+</ol></li>
+<li><p>¿Qué valor de población tiene Chile en 2007?</p></li>
+<li><p>¿Qué valor de expectativa de vida tiene Argentina en 1957?</p></li>
+<li><p>¿Qué PBI per cápita tiene Chile en 1992?</p></li>
+<li><p>Realizar una consulta para unir las tres tablas originales (todos los registros y columnas de Argentina, Chile y Brasil) en una sola.</p></li>
+</ol></li>
+</ol>
+</section>
+<section id="practica-joins-en-sql" class="level3">
+<h3 class="anchored" data-anchor-id="practica-joins-en-sql">2. Practica JOINS en SQL</h3>
+<ol type="1">
+<li><p>En el campus buscar el archivo <a href="data/SQLite_Chinook_Database.sql">SQLite Chinook Database - Ejercicio 2</a>, abrirlo en <a href="https://sqliteonline.com/" class="uri">https://sqliteonline.com/</a> y ejecutarlo para crear una base de datos con varias tablas (va a tardar un ratito).</p></li>
+<li><p>Guardar la resolución SQL de cada punto de este ejercicio y subirlo al campus en un solo archivo con el nombre ejercicio 2.</p></li>
+</ol>
+<section id="ejercicios-1" class="level4">
+<h4 class="anchored" data-anchor-id="ejercicios-1">Ejercicios:</h4>
+<ol type="a">
+<li><p>Listar el título del Album junto al nombre del artista ordenado de forma alfabética por el Artista.</p></li>
+<li><p>Mostrar de mayor a menor la cantidad de albunes que tiene cada artista. La salida debe mostrar el nombre del Artista y la cantidad bajo el nombre Cantidad. Como muestra la figura.</p></li>
+</ol>
+<p><img src="img/ejercicios-clase7.png" class="img-fluid" alt="Listado con dos columnas, la primera se llama Name y la segunda Cantidad.  La primera file tiene los valores Iron Maiden, 21 y la segunda fila Led Zeppelin, 14."></p>
+<p>c. Ejecutar la siguiente sentencia SQL y luego c.1) Cambiarlo hasta que funcione y c.2) explicar que hace.</p>
+<pre><code>SELECT Name, GenreId, albumid
+
+FROM Track JOIN Genre on Track.GenreId = Genre.GenreId
+
+order by Name DESC;</code></pre>
+<ol start="4" type="a">
+<li>Modificar la consulta anterior para que traiga el nombre del album y el nombre del artista del album, además del nombre del genero, Ordenarlo alfabeticamente por las tres columnas.</li>
+</ol>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
