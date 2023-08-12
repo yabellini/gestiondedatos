@@ -4,10 +4,101 @@ title: "Clase 6 - El lenguaje estándar SQL"
 
 ## Objetivos de Aprendizaje
 
+-   Conocer y utilizar sentencias de manejo de datos en SQL
 
+-   Agregar datos a una tabla con INSERT.
+
+-   Seleccionar datos con SELECT.
+
+-   Filtrar filas con SELECT y WHERE.
+
+-   Actualizar datos en una tabla con UPDATE, incorporar condiciones con WHERE.
+
+-   Borrar registros de una tabla con DELETE utilizando condiciones con WHERE.
+
+-   Utilizar SELECT para construir la condicion del WHERE para actualizar o borrar registros.
+
+-   Seleccionar diferentes columnas con SELECT. Entender y utilizar el \*.
+
+-   Ordenar la salida de una consulta con ORDER BY.
+
+-   Remover duplicados de una consulta con DISTINCT.
+
+-   Filtrado avanzado de registros. Diferencias enr AND, OR, NOT, IN, BETWEEN, LIKE.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1W8XG-pLp5JaM2Bck-0L45UNj2B5jJaglzCKb1DvXJN4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1W8XG-pLp5JaM2Bck-0L45UNj2B5jJaglzCKb1DvXJN4/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+## Ejercicios
+
+### Ejercicio 1 - Trabajo en grupo
+
+Tiempo: 20 minutos. Herramienta: https://sqliteonline.com/
+
+Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la Clase 5.
+
+#### Tabla CLIENTES
+
+-   Agreguen estos datos a la tabla CLIENTES
+
+-   Chequeen con SELECT que los datos fueron agregados correctamente.
+
+|             |                        |               |                    |
+|-------------|------------------------|---------------|--------------------|
+| CUIT        | NOMBRE                 | DIRECCION     | TIPO_CONTRIBUYENTE |
+| 22113456784 | LA PAPELERA            | HAITI 780     | 1                  |
+| 23456987364 | LA ESQUINA DEL ARTISTA | GUATEMALA 678 | 2                  |
+| 21923456782 | TODO PARA LA OFICINA   | COSTA RICA 25 | 1                  |
+| 3456183067  | EL GRAFITO             | PANAMA S/N    | 1                  |
+
+#### Tabla EMPRESAS
+
+-   Agreguen estos datos a la tabla EMPRESAS
+
+-   Chequeen con SELECT que los datos fueron agregados correctamente.
+
+|             |              |           |                    |
+|-------------|--------------|-----------|--------------------|
+| CUIT        | NOMBRE       | DIRECCION | TIPO_CONTRIBUYENTE |
+| 22345612984 | RIVADAVIA    |           | 1                  |
+| 24561230364 | EXITO        |           | 2                  |
+| 21923888782 | MAPED        |           | 1                  |
+| 43456183145 | DOS BANDERAS |           | 1                  |
 
 
+#### Tabla PRODUCTO
+
+-   Agreguen estos datos a la tabla PRODUCTO
+
+-   Chequeen con SELECT que los datos fueron agregados correctamente.
+
+|            |                           |       |        |
+|------------|---------------------------|------:|-------:|
+| IDPRODUCTO | NOMBRE                    | STOCK | PRECIO |
+| 1          | HOJAS CARPETA N° 3        |  1000 | 450,80 |
+| 2          | CUADERNO ABC              |  2000 | 250,00 |
+| 3          | LAPICES 12 COLORES LARGOS |   500 | 650,90 |
+| 4          | GOMA DE BORRAR LAPIZ      |   300 |  35,50 |
+
+Facturas
+
+Generar los registros en las tablas de encabezado y detalle de factura para vender los siguientes productos:
+
+-   La Papelera compró 100 cajas de hojas de carpeta N° 3 rivadavia y  50 gomas de borrar MAPED.
+
+-   El grafito compró 200 cuadernos ABC y 75 cajas de lápices de 12 colores largos.
+
+-   Chequeen con SELECT que los datos fueron agregados correctamente.Descarguen los datos como CSV y suban el archivo al campus.
+
+Actualización de datos
+
+-   Actualicen el campo STOCK de la tabla de productos para que refleje los cambios en el stock luego de las ventas a La Papelera y a El Grafito.
+
+-   Cuando terminen descarguen los datos en formato CSV y subanlo al campus.
+
+-   
+
+-   Exporten el SQL Schema y suban el archivo al campus.
