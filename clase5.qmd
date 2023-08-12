@@ -98,7 +98,7 @@ Esta es una [plantilla del documento compartido](https://docs.google.com/present
 
 Para cada diagrama:
 
-1.  Crear la base de datos. 
+1.  Crear la base de datos.
 
     1.  Definir el dominio de los distintos atributos
 
