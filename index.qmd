@@ -70,9 +70,12 @@ Se solicitará a los estudiantes que instalen software libre y gratuito para la 
 
 * SQLLite (gestor de base de datos):  https://sqliteonline.com/,  https://www.sqlite.org/index.html 
 
-* R (lenguaje de programación) - https://www.r-project.org/ 
+* [R (lenguaje de programación)](https://www.r-project.org/ )
 
-* RStudio (IDE) - https://www.rstudio.com/products/rstudio/ 
+* [RStudio (IDE)](https://www.rstudio.com/products/rstudio/)  
+
+* Abigail Cabunoc and Sheldon McKay (eds): ["Software Carpentry. Using
+Databases and SQL."](https://github.com/swcarpentry/sql-novice-survey).Version 2017.08, August 2017, https://doi.org/10.5281/zenodo.838776
 
 Otros materiales y bibliografía serán sugeridos de acuerdo a las discusiones que se generen y el interés de las y los estudiantes. 
 
