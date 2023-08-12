@@ -4,7 +4,7 @@
 
 ![](https://zenodo.org/badge/DOI/10.5281/zenodo.8242069.svg)
 
-Yanina Bellini Saibene, & Paola Corrales. (2023, August 12). yabellini/gestiondedatos: Gestión De Datos. Zenodo. https://doi.org/10.5281/zenodo.8242069
+Yanina Bellini Saibene, & Paola Corrales. (2023, August 12). Gestión De Datos. Zenodo. https://doi.org/10.5281/zenodo.8242069
 
 ## Reconocimientos
 
