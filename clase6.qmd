@@ -175,22 +175,21 @@ Para cada diagrama:
 
 4.  Exportar el SQL y subirlo al foro de la Clase 6
 
-**Ejercicio 1 - Pingüinos**
+**Ejercicio 1 - [Pingüinos](https://drive.google.com/file/d/1KKHJ2XBSWhxAyvupu19U283bYyx8LVCP/view?usp=sharing)**
 
-Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica. <https://drive.google.com/file/d/1KKHJ2XBSWhxAyvupu19U283bYyx8LVCP/view?usp=sharing>
+Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica. 
 
 ![DER Pingüinos](img/pinguinos.png){fig-alt="DER con las tablas Isla y Pingüinos"}
 
-**Ejercicio 2 - Bateadores**
+**Ejercicio 2 - [Bateadores](https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing)**
 
 Estadísticas de bateadores de beisbol
 
 ![DER Bateadores](img/bateadores.png){fig-alt="DER con las tablas Bateadores, Equipos, Ligas y Batedores-Equipos."}
 
-<https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing>
-
 **Ejercicio 3 - AirBnB**
+
+Datos de AirBnB en Buenos Aires
 
 ![DER AirBnB](img/airbnb.png){fig-alt="DER con las tablas Alojamientos, Anfitriones, Tipo de Alojamientos y Alojamientos-Tipos"}
 
-Datos de AirBnB en Buenos Aires
