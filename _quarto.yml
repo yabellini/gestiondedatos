@@ -41,8 +41,7 @@ website:
         text: Clase 10 - SQL
       - href: ejerciciosextra.qmd
         text: Guía de Ejercicios
-      - href: evaluaciones.qmd
-        text: Parciales y Finales
+
 format:
   html:
     theme: sandstone
