@@ -82,7 +82,6 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 | 3          | LAPICES 12 COLORES LARGOS |   500 | 650,90 |
 | 4          | GOMA DE BORRAR LAPIZ      |   300 |  35,50 |
 
-
 -   Exporten el SQL Schema y suban el archivo al campus.
 
 #### Entidad FACTURAS
@@ -103,6 +102,36 @@ Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la 
 
 -   Cuando terminen descarguen los datos en formato CSV y subanlo al campus.
 
+### Ejercicio 2 - Trabajo en grupo
 
+### Ejercicios de Tarea
 
+Para cada diagrama:
 
+1.  Cargar el esquema de las bases de datos generados para los ejercicios de tarea de la clase 5
+
+2.  Cargar 10 registros para cada tabla utilizando los datos provistos. 
+
+3.  Escribir el comando que borre los registros que cumplan determinada condición, pero no borrarlos!
+
+    1.  Ejercicio 1: Pingüinos con un largo de pico menor a 34 mm
+
+    2.  Ejercicio 2: Bateadores que tienen más de 175 carreras
+
+    3.  Ejercicio 3: Alojamientos para más de 8 huéspedes. 
+
+4.  Exportar el SQL y subirlo al foro de la Clase 6
+
+**Ejercicio 1 - Pingüinos**
+
+Medidas de tamaño de pingüinos adultos en busca de comida cerca de la estación Palmer en la Antártica. <https://drive.google.com/file/d/1KKHJ2XBSWhxAyvupu19U283bYyx8LVCP/view?usp=sharing>
+
+**Ejercicio 2 - Bateadores**
+
+Estadísticas de bateadores de beisbol
+
+<https://drive.google.com/file/d/1eHLF-SbEe-GsKZ1eWDACzjtE4WmXsG1a/view?usp=sharing>
+
+**Ejercicio 3**
+
+Datos de AirBnB en Buenos Aires
