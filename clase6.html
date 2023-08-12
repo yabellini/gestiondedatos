@@ -183,6 +183,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#objetivos-de-aprendizaje" id="toc-objetivos-de-aprendizaje" class="nav-link active" data-scroll-target="#objetivos-de-aprendizaje">Objetivos de Aprendizaje</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
+  <ul class="collapse">
+  <li><a href="#ejercicio-1---trabajo-en-grupo" id="toc-ejercicio-1---trabajo-en-grupo" class="nav-link" data-scroll-target="#ejercicio-1---trabajo-en-grupo">Ejercicio 1 - Trabajo en grupo</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -208,13 +212,185 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="objetivos-de-aprendizaje" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-de-aprendizaje">Objetivos de Aprendizaje</h2>
+<ul>
+<li><p>Conocer y utilizar sentencias de manejo de datos en SQL</p></li>
+<li><p>Agregar datos a una tabla con INSERT.</p></li>
+<li><p>Seleccionar datos con SELECT.</p></li>
+<li><p>Filtrar filas con SELECT y WHERE.</p></li>
+<li><p>Actualizar datos en una tabla con UPDATE, incorporar condiciones con WHERE.</p></li>
+<li><p>Borrar registros de una tabla con DELETE utilizando condiciones con WHERE.</p></li>
+<li><p>Utilizar SELECT para construir la condicion del WHERE para actualizar o borrar registros.</p></li>
+<li><p>Seleccionar diferentes columnas con SELECT. Entender y utilizar el *.</p></li>
+<li><p>Ordenar la salida de una consulta con ORDER BY.</p></li>
+<li><p>Remover duplicados de una consulta con DISTINCT.</p></li>
+<li><p>Filtrado avanzado de registros. Diferencias enr AND, OR, NOT, IN, BETWEEN, LIKE.</p></li>
+</ul>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <iframe src="https://docs.google.com/presentation/d/1W8XG-pLp5JaM2Bck-0L45UNj2B5jJaglzCKb1DvXJN4/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
+</section>
+<section id="ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
+<section id="ejercicio-1---trabajo-en-grupo" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicio-1---trabajo-en-grupo">Ejercicio 1 - Trabajo en grupo</h3>
+<p>Tiempo: 20 minutos. Herramienta: https://sqliteonline.com/</p>
+<p>Vamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la Clase 5.</p>
+<section id="tabla-clientes" class="level4">
+<h4 class="anchored" data-anchor-id="tabla-clientes">Tabla CLIENTES</h4>
+<ul>
+<li><p>Agreguen estos datos a la tabla CLIENTES</p></li>
+<li><p>Chequeen con SELECT que los datos fueron agregados correctamente.</p></li>
+</ul>
+<table class="table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 33%">
+<col style="width: 20%">
+<col style="width: 27%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>CUIT</td>
+<td>NOMBRE</td>
+<td>DIRECCION</td>
+<td>TIPO_CONTRIBUYENTE</td>
+</tr>
+<tr class="even">
+<td>22113456784</td>
+<td>LA PAPELERA</td>
+<td>HAITI 780</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>23456987364</td>
+<td>LA ESQUINA DEL ARTISTA</td>
+<td>GUATEMALA 678</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>21923456782</td>
+<td>TODO PARA LA OFICINA</td>
+<td>COSTA RICA 25</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>3456183067</td>
+<td>EL GRAFITO</td>
+<td>PANAMA S/N</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabla-empresas" class="level4">
+<h4 class="anchored" data-anchor-id="tabla-empresas">Tabla EMPRESAS</h4>
+<ul>
+<li><p>Agreguen estos datos a la tabla EMPRESAS</p></li>
+<li><p>Chequeen con SELECT que los datos fueron agregados correctamente.</p></li>
+</ul>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>CUIT</td>
+<td>NOMBRE</td>
+<td>DIRECCION</td>
+<td>TIPO_CONTRIBUYENTE</td>
+</tr>
+<tr class="even">
+<td>22345612984</td>
+<td>RIVADAVIA</td>
+<td>&nbsp;</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>24561230364</td>
+<td>EXITO</td>
+<td>&nbsp;</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>21923888782</td>
+<td>MAPED</td>
+<td>&nbsp;</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>43456183145</td>
+<td>DOS BANDERAS</td>
+<td>&nbsp;</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tabla-producto" class="level4">
+<h4 class="anchored" data-anchor-id="tabla-producto">Tabla PRODUCTO</h4>
+<ul>
+<li><p>Agreguen estos datos a la tabla PRODUCTO</p></li>
+<li><p>Chequeen con SELECT que los datos fueron agregados correctamente.</p></li>
+</ul>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>IDPRODUCTO</td>
+<td>NOMBRE</td>
+<td style="text-align: right;">STOCK</td>
+<td style="text-align: right;">PRECIO</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>HOJAS CARPETA N° 3</td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">450,80</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>CUADERNO ABC</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;">250,00</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>LAPICES 12 COLORES LARGOS</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">650,90</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>GOMA DE BORRAR LAPIZ</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">35,50</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Exporten el SQL Schema y suban el archivo al campus.</li>
+</ul>
+</section>
+<section id="entidad-facturas" class="level4">
+<h4 class="anchored" data-anchor-id="entidad-facturas">Entidad FACTURAS</h4>
+<ul>
+<li><p>Generar los registros en las tablas de encabezado y detalle de factura para vender los siguientes productos:</p>
+<ul>
+<li><p>La Papelera compró 100 cajas de hojas de carpeta N° 3 Rivadavia y 50 gomas de borrar MAPED.</p></li>
+<li><p>El Grafito compró 200 cuadernos ABC y 75 cajas de lápices de 12 colores largos.</p></li>
+</ul></li>
+<li><p>Chequeen con SELECT que los datos fueron agregados correctamente.</p></li>
+<li><p>Descarguen los datos como CSV y suban el archivo al campus.</p></li>
+</ul>
+</section>
+<section id="actualización-de-datos" class="level4">
+<h4 class="anchored" data-anchor-id="actualización-de-datos">Actualización de datos</h4>
+<ul>
+<li><p>Actualicen el campo STOCK de la tabla de productos para que refleje los cambios en el stock luego de las ventas a La Papelera y a El Grafito.</p></li>
+<li><p>Cuando terminen descarguen los datos en formato CSV y subanlo al campus.</p></li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

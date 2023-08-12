@@ -105,11 +105,32 @@
     "text": "Slides"
   },
   {
+    "objectID": "clase6.html",
+    "href": "clase6.html",
+    "title": "Clase 6 - El lenguaje estándar SQL",
+    "section": "",
+    "text": "Conocer y utilizar sentencias de manejo de datos en SQL\nAgregar datos a una tabla con INSERT.\nSeleccionar datos con SELECT.\nFiltrar filas con SELECT y WHERE.\nActualizar datos en una tabla con UPDATE, incorporar condiciones con WHERE.\nBorrar registros de una tabla con DELETE utilizando condiciones con WHERE.\nUtilizar SELECT para construir la condicion del WHERE para actualizar o borrar registros.\nSeleccionar diferentes columnas con SELECT. Entender y utilizar el *.\nOrdenar la salida de una consulta con ORDER BY.\nRemover duplicados de una consulta con DISTINCT.\nFiltrado avanzado de registros. Diferencias enr AND, OR, NOT, IN, BETWEEN, LIKE."
+  },
+  {
+    "objectID": "clase6.html#objetivos-de-aprendizaje",
+    "href": "clase6.html#objetivos-de-aprendizaje",
+    "title": "Clase 6 - El lenguaje estándar SQL",
+    "section": "",
+    "text": "Conocer y utilizar sentencias de manejo de datos en SQL\nAgregar datos a una tabla con INSERT.\nSeleccionar datos con SELECT.\nFiltrar filas con SELECT y WHERE.\nActualizar datos en una tabla con UPDATE, incorporar condiciones con WHERE.\nBorrar registros de una tabla con DELETE utilizando condiciones con WHERE.\nUtilizar SELECT para construir la condicion del WHERE para actualizar o borrar registros.\nSeleccionar diferentes columnas con SELECT. Entender y utilizar el *.\nOrdenar la salida de una consulta con ORDER BY.\nRemover duplicados de una consulta con DISTINCT.\nFiltrado avanzado de registros. Diferencias enr AND, OR, NOT, IN, BETWEEN, LIKE."
+  },
+  {
     "objectID": "clase6.html#slides",
     "href": "clase6.html#slides",
     "title": "Clase 6 - El lenguaje estándar SQL",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "clase6.html#ejercicios",
+    "href": "clase6.html#ejercicios",
+    "title": "Clase 6 - El lenguaje estándar SQL",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nEjercicio 1 - Trabajo en grupo\nTiempo: 20 minutos. Herramienta: https://sqliteonline.com/\nVamos a utilizar la base de datos creada en el ejercicio 1 realizado durante la Clase 5.\n\nTabla CLIENTES\n\nAgreguen estos datos a la tabla CLIENTES\nChequeen con SELECT que los datos fueron agregados correctamente.\n\n\n\n\n\n\n\n\n\n\nCUIT\nNOMBRE\nDIRECCION\nTIPO_CONTRIBUYENTE\n\n\n22113456784\nLA PAPELERA\nHAITI 780\n1\n\n\n23456987364\nLA ESQUINA DEL ARTISTA\nGUATEMALA 678\n2\n\n\n21923456782\nTODO PARA LA OFICINA\nCOSTA RICA 25\n1\n\n\n3456183067\nEL GRAFITO\nPANAMA S/N\n1\n\n\n\n\n\nTabla EMPRESAS\n\nAgreguen estos datos a la tabla EMPRESAS\nChequeen con SELECT que los datos fueron agregados correctamente.\n\n\n\n\nCUIT\nNOMBRE\nDIRECCION\nTIPO_CONTRIBUYENTE\n\n\n22345612984\nRIVADAVIA\n \n1\n\n\n24561230364\nEXITO\n \n2\n\n\n21923888782\nMAPED\n \n1\n\n\n43456183145\nDOS BANDERAS\n \n1\n\n\n\n\n\nTabla PRODUCTO\n\nAgreguen estos datos a la tabla PRODUCTO\nChequeen con SELECT que los datos fueron agregados correctamente.\n\n\n\n\nIDPRODUCTO\nNOMBRE\nSTOCK\nPRECIO\n\n\n1\nHOJAS CARPETA N° 3\n1000\n450,80\n\n\n2\nCUADERNO ABC\n2000\n250,00\n\n\n3\nLAPICES 12 COLORES LARGOS\n500\n650,90\n\n\n4\nGOMA DE BORRAR LAPIZ\n300\n35,50\n\n\n\n\nExporten el SQL Schema y suban el archivo al campus.\n\n\n\nEntidad FACTURAS\n\nGenerar los registros en las tablas de encabezado y detalle de factura para vender los siguientes productos:\n\nLa Papelera compró 100 cajas de hojas de carpeta N° 3 Rivadavia y 50 gomas de borrar MAPED.\nEl Grafito compró 200 cuadernos ABC y 75 cajas de lápices de 12 colores largos.\n\nChequeen con SELECT que los datos fueron agregados correctamente.\nDescarguen los datos como CSV y suban el archivo al campus.\n\n\n\nActualización de datos\n\nActualicen el campo STOCK de la tabla de productos para que refleje los cambios en el stock luego de las ventas a La Papelera y a El Grafito.\nCuando terminen descarguen los datos en formato CSV y subanlo al campus."
   },
   {
     "objectID": "clase7.html#slides",
