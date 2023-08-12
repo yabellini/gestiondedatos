@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./clase10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Clase 10</span></a>
+ <span class="menu-text">Clase 10 - SQL</span></a>
   </div>
 </li>
     </ul>
@@ -186,7 +186,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
   <ul class="collapse">
   <li><a href="#summarise-group_by" id="toc-summarise-group_by" class="nav-link" data-scroll-target="#summarise-group_by">1. summarise(), group_by()</a></li>
+  <li><a href="#joins" id="toc-joins" class="nav-link" data-scroll-target="#joins">2. Joins!</a></li>
+  <li><a href="#pivot_wider-y-pivotlonger" id="toc-pivot_wider-y-pivotlonger" class="nav-link" data-scroll-target="#pivot_wider-y-pivotlonger">3.pivot_wider() y pivot()longer</a></li>
   </ul></li>
+  <li><a href="#lectura-sugerida" id="toc-lectura-sugerida" class="nav-link" data-scroll-target="#lectura-sugerida">Lectura sugerida</a></li>
   </ul>
 </nav>
     </div>
@@ -218,6 +221,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Escribir código R que permita modificar/generar columnas utilizando verbos tidyverse.</p></li>
 <li><p>Entender qué es un NA en R y como afecta los resultados de una consulta.</p></li>
 <li><p>Utilizar verbos de tidyverse para resumir información</p></li>
+<li><p>Escribir código de R para poder hacer JOINs.</p></li>
+<li><p>Entender que es una tabla larga y una tabla ancha.</p></li>
+<li><p>Utilizar pivot_wider y pivot_longer para cambiar la estrcutura de una tabla.</p></li>
 </ul>
 </section>
 <section id="slides" class="level2">
@@ -245,9 +251,39 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li><p>¿Cual es la especie más común? <em>Pista: hay que agregar la función arrange()</em></p></li>
 </ol>
-
-
 </section>
+<section id="joins" class="level3">
+<h3 class="anchored" data-anchor-id="joins">2. Joins!</h3>
+<p><em>Consejito: miren el diagrama en la dipo 15 para guiarse con las claves y los campos que tienen las tablas</em></p>
+<ol type="1">
+<li><p>Une la tabla plot con la tabla surveys para devolver la cantidad de surveys por cada tipo de gráfico.</p></li>
+<li><p>Conecta a la tabla species y escribe una consulta que una las tablas species con la tabla survey excluyendo a todos los registros de los no roedores (En inglés Roedores es Rodent).</p></li>
+<li><p>Modifica la consulta anterior para que devuelva la cantidad de roedores por año.</p></li>
+</ol>
+</section>
+<section id="pivot_wider-y-pivotlonger" class="level3">
+<h3 class="anchored" data-anchor-id="pivot_wider-y-pivotlonger">3.pivot_wider() y pivot()longer</h3>
+<ol type="1">
+<li><p>A partir de la tabla con toda la información (que creamos uniendo el resto de las tablas):</p>
+<ol type="1">
+<li><p>Contar la cantidad de "genus" distintos para cada plot_id y año. Algunas pistas:</p>
+<ol type="1">
+<li><p>La tabla debera tener 3 columnas: plot_id, year, n_generos (que contiene la cantidad de genus distintos</p></li>
+<li><p>Para calcular la cantidad de cosas distintas exploren la funcion n_distinct() y summarise()!</p></li>
+</ol></li>
+<li><p>"Ensancha" la tabla para organizar la información tal que los años sean columnas y plot_id se organice en filas.</p></li>
+<li><p>"Alarga" la tabla para que en cada fila haya una combinación de plot_id y year.</p></li>
+</ol></li>
+</ol>
+</section>
+</section>
+<section id="lectura-sugerida" class="level2">
+<h2 class="anchored" data-anchor-id="lectura-sugerida">Lectura sugerida</h2>
+<ul>
+<li><a href="https://datasciencebydesign.org/blog/when-we-miss-missingness">When We Miss Missingness (Cuando extrañamos la falta)</a> por Cat Hicks</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->
