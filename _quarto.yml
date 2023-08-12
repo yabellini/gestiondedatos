@@ -38,7 +38,7 @@ website:
       - href: clase9.qmd
         text: Clase 9 -  R
       - href: clase10.qmd
-        text: Clase 10
+        text: Clase 10 - SQL
 format:
   html:
     theme: sandstone
