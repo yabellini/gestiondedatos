@@ -4,10 +4,90 @@ title: "Clase 7"
 
 ## Objetivos de Aprendizaje
 
+-   Entender que es un valor nulo y como afectan la selección de filas.
 
+-   Utilizar IS NULL/IS NOT NULL en la clausula WHERE para filtrar registros.
+
+-   Identificar cinco funciones para calcular datos de resumen de diferentes columnas.
+
+-   Utilizar las funciones de calculo en conjunto con la clausula GROUP BY.
+
+-   Identificar cuando es necesario realizar una unión de tablas y qué tipo de unión utilizar.
+
+-   utilizar los diferentes tipos de JOINS disponibles en una consulta de acuerdo a los datos necesarios en el conjunto de datos resultantes.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1M_c7wsDxp6VpL6V48ZSL0smykjY8wnb5Zdh94OrvM-c/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1M_c7wsDxp6VpL6V48ZSL0smykjY8wnb5Zdh94OrvM-c/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
+</iframe>
 
+## Ejercicios
+
+### 1. Practica SQL
+
+1.  Descargar los archivos: [Argenitna.csv](data/Argenitna.csv), [Chile.csv](data/Chile.csv) y [Brazil.csv](data/Brazil.csv).
+
+2.  Importar los 3 archivos a <https://sqliteonline.com/>. Tener en cuenta que el separador es el punto y coma (;) y el nombre de las columnas está en la primera fila del archivo.
+
+3.  Cuando hayan importado los tres archivos realicen las consultas y contesten las preguntas. **Suban al foro todos los SQL con las respuestas. Un envio por grupo.**
+
+    1.  Generar el SQL Schema y guardar ese código.
+
+    2.  Realizar una consulta que les permita contestar cuantas filas tiene cada país.
+
+        1.  Argentina:
+
+        2.  Brasil:
+
+        3.  Chile:
+
+    3.  Realizar una consulta que les permita indicar el máximo de la población, el promedio de la expectativa de vida y el mínimo del PBI per cápita de cada país.
+
+        1.  Argentina:
+
+        2.  Brasil:
+
+        3.  Chile:
+
+    4.  Realizar una consulta para saber sobre qué años (y cuantos años) tiene datos cada país.
+
+        1.  Argentina:
+
+        2.  Brasil:
+
+        3.  Chile:
+
+    5.  ¿Qué valor de población tiene Chile en 2007?
+
+    6.  ¿Qué valor de expectativa de vida tiene Argentina en 1957?
+
+    7.  ¿Qué PBI per cápita tiene Chile en 1992?
+
+    8.  Realizar una consulta para unir las tres tablas originales (todos los registros y columnas de Argentina, Chile y Brasil) en una sola.
+
+### 2. Practica JOINS en SQL
+
+1.  En el campus buscar el archivo [SQLite Chinook Database - Ejercicio 2](data/SQLite_Chinook_Database.sql), abrirlo en <https://sqliteonline.com/> y ejecutarlo para crear una base de datos con varias tablas (va a tardar un ratito).
+
+2.  Guardar la resolución SQL de cada punto de este ejercicio y subirlo al campus en un solo archivo con el nombre ejercicio 2.
+
+#### Ejercicios:
+
+a.  Listar el título del Album junto al nombre del artista ordenado de forma alfabética por el Artista.
+
+b.  Mostrar de mayor a menor la cantidad de albunes que tiene cada artista. La salida debe mostrar el nombre del Artista y la cantidad bajo el nombre Cantidad. Como muestra la figura.
+
+![](img/ejercicios-clase7.png){fig-alt="Listado con dos columnas, la primera se llama Name y la segunda Cantidad.  La primera file tiene los valores Iron Maiden, 21 y la segunda fila Led Zeppelin, 14."}
+
+c\. Ejecutar la siguiente sentencia SQL y luego c.1) Cambiarlo hasta que funcione y c.2) explicar que hace.
+
+```         
+SELECT Name, GenreId, albumid
+
+FROM Track JOIN Genre on Track.GenreId = Genre.GenreId
+
+order by Name DESC;
+```
+
+d.  Modificar la consulta anterior para que traiga el nombre del album y el nombre del artista del album, además del nombre del genero, Ordenarlo alfabeticamente por las tres columnas.
