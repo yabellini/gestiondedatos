@@ -1,9 +1,16 @@
 ---
-title: "Clase 10"
+title: "Clase 10 - SLQ"
 ---
 
 ## Objetivos de Aprendizaje
 
+-   Identificar y trabajar sobre las concepciones erróneas más comunes de R.
+
+-   Identificar y trabajar sobre las concepciones erróneas más comunes de SQL.
+
+-   Definir La gestión de datos en el proceso de la Ciencia de Datos.
+
+-   Explorar un caso de uso del mundo real donde se utilizan todas las herramientas vistas en las clases.
 
 ## Slides
 
