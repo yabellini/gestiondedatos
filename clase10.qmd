@@ -16,4 +16,15 @@ title: "Clase 10 - SLQ"
 
 <iframe src="https://docs.google.com/presentation/d/13p9X0v8PDnUPykUbwiSDNpK1ym7x5NJ8cjxMfniVRv0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+## Ejercicios
+
+### La trivia de R y SQL - Todo el grupo
+
+Responder a cada pregunta eligiendo la respuesta con la información de la slide correspondiente. 
+
+::: callout-tip
+## Formulario de la Trivia
+
+Este es un [formulario que tiene las preguntas y las posibles respuestas de la trivia que se muestra en las slides](https://forms.gle/gfEauhgpmHso92Yf8) utilizando google form. Este link se reparte a cada estudiante en la clase y se le solicita que lo vaya completando meintras se van pasando las slides.  Luego se ven las respuestas de todo el grupo y se repasa la respuesta corrrecta y porqué las otras no lo son.
+:::
 
