@@ -14,7 +14,13 @@ title: "Clase 9"
 
 * Utilizar verbos de tidyverse para resumir información
 
+* Escribir código de R para poder hacer JOINs.
 
+* Entender que es una tabla larga y una tabla ancha.
+
+* Utilizar pivot_wider y pivot_longer para cambiar la estrcutura de una tabla.
+
+* 
 
 ## Slides
 
@@ -44,3 +50,8 @@ Utilizando la misma base de datos con la que venimos trabajando y desde RStudio 
     3.  Usando show_query() comparar la consulta con lo que escribieron en a.
 
 3.  ¿Cual es la especie más común? _Pista: hay que agregar la función arrange()_
+
+## Lectura sugerida
+
+* [When We Miss Missingness (Cuando extrañamos la falta)](https://datasciencebydesign.org/blog/when-we-miss-missingness) por Cat Hicks
+  
