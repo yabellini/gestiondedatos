@@ -1,13 +1,102 @@
 ---
-title: "Clase 8"
+title: "Clase 8 - SQL y R"
 ---
 
 ## Objetivos de Aprendizaje
 
+* Identificar que funciones de SQL son de manipulación de estructura, cuales de manipulación de datos, cuales de consulta de datos.
+
+* Diferenciar cuando se usa la clausula WHERE y cuando la clausula HAVING.
+
+* Escribir consultas que permitan filtrar resultados agrupados.
+
+* Identificar cuando es necesaria una subconsulta y escribirlas. 
+
+* Definir que es R y RStudio.
+
+* Reconocer la interfaz de usuario de RStudio y los panales principales.
+
+* Definir que es un paquete de R e instalarlos.
+
+* Escribir código de R utilizando el tidyverse que permita seleccionar, filtrar, modificar y resumir datos de una tabla.
 
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/1RzbUVkK6f3FsTRcd3Tct9BKpWx4ayG1Db39e1k8NWZ4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1RzbUVkK6f3FsTRcd3Tct9BKpWx4ayG1Db39e1k8NWZ4/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+## Ejercicios
+
+### Ejercicio SQL: clausula HAVING
+
+Utilizando la base de datos Chinook resolver las siguientes consultas:
+
+1.  Obtener la lista de países que tienen una cantidad de facturas igual a 7. Ordenarlos alfabéticamente.
+
+2.  Listar todas las ciudades cuyo total de facturación es mayor a 50. Mostrar el nombre de la ciudad y el total. Ordenarlos de forma que aparezcan primero las ciudades que más facturaron. Mostrar los totales con solo dos decimales.
+
+3.  Obtener los tipos de medios (MediaType) que tienen menos de 100 pistas (Traks). _Pista: resolver primero la consulta para saber cuantas pistas tiene cada tipo de medio y luego agregar el HAVING necesario._
 
 
+### Ejercicios R
+
+Utilizando la misma base de datos con la que venimos trabajando y desde RStudio resolver los siguientes ejercicios y subir el código al campus. Uno por grupo!
+
+#### 1. select(), filter()
+
+1.  De la tabla surveys, seleccionen solo las columnas species_id, sex y hindfoot_length.
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente). 
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto. 
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+2.  De la tabla surveys, filtren los registros previos a 1995. Nuevamente:
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+3.  A partir de las consultas anteriores unifiquen el código para seleccionar las consultas y aplicar el filtro al mismo tiempo.
+
+4.  ¿Cuántos registros (filas) se obtienen?
+
+#### 2. mutate()
+
+1.  A partir de la tabla surveys, modificar la variable hindfoot_length (actualmente expresada en mm) para mostrarla en cm, la nueva variable se llamará hindfoot_cm. 
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente). 
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto. 
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+2.  Modificar la consulta anterior (hacer una copia) para además filtrar los registros donde hindfoot_cm \< 3. 
+
+3.  Si la variable hindfoot_cm tiene valores nulos, ¿qué se podría agregar a código (de R o de SQL) para tener esto en cuenta?
+
+
+#### 3. summarise(), group_by()
+
+1.  A partir de la tabla surveys, calcular la media, máximo, mínimo y cantidad de registros (usando la función n()) para la variable hindfoot_length.
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+2.  Modificar la consulta anterior (hacer una copia) para calcular la media, máximo, mínimo y cantidad de registros para la variable hindfoot_length por cada especie (specie_id). De nuevo:
+
+    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
+
+    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
+
+    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
+
+3.  ¿Cual es la especie más común? _Pista: hay que agregar la función arrange()_
