@@ -2,13 +2,9 @@
 title: "Guía de Ejercicios"
 ---
 
-## Ejercicios
+## Guía de ejercicios prácticos Unidades 1 y 2
 
-### Guía de ejercicios prácticos Unidades 1 a 3
-
-#### Sistema de Red de Ensayos de Cultivares
-
-##### Resolver
+### Resolver
 
 A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
 
@@ -26,9 +22,9 @@ A continuación se presenta la descripción de un modelo a resolver. Leer atenta
 
     3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
 
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto.
+*Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto.*
 
-##### Descripción del sistema
+### Sistema de Red de Ensayos de Cultivares
 
 Se nos pide que modelemos una base de datos para una red de ensayos de cultivares brindándonos la siguiente información:
 
@@ -44,30 +40,7 @@ Los datos a registrar son: 
 
 Cultivar, Empresa del cultivar,  Fecha de Floración del cultivar, Cantidad de días entre siembra y floración del cultivar, Altura del cultivar, Altura promedio de plantas de las parcelas del cultivar, Densidad del cultivar, Rendimiento del cultivar, Porcentaje de humedad del cultivar, Aceite del cultivar, Campaña, Localidad del ensayo, Latitud y Longitud de la localidad donde se realiza el ensayo, Nombre del ensayo (que se forma con la localidad y la campaña), Tipo de Ensayo (puede ser: Convencional, Clearfield, Alto Oleico, Confitero, Tardia), Cultivo del Ensayo (pude ser Girasol, Soja, Maíz, etc), Distancia entre surcos,  Tipo Siembra (puede ser: Directa, Convencional), Fecha de Siembra.
 
-#### Sistema de Club de Lectura
-
-##### Resolver 
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Club de Lectura
 
 Nos piden ayuda para modelar el sistema de un club de lectura en el cual los socios aportan una cuota mensual y reciben todos los meses un libro en su domicilio para leer. Los responsables del club de lectura nos brindaron la siguiente información: 
 
@@ -77,29 +50,7 @@ Los libros cuentan con un título, el idioma y la cantidad total de páginas. Ad
 
 El club envía los libros a los socios que están al día con su cuota. De los socios sabemos su DNI, su nombre y apellido y su domicilio completo (calle, altura, código postal, localidad). Los socios marcan sus preferencias de género porque esto ayuda a los responsables del club con la decisión de qué tipo de libro comprar cada mes. También queremos registrar los pagos realizados por cada socio y los libros que ya le enviamos.
 
-#### Sistema de Netflix
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Netflix
 
 Tenemos que generar la base de datos para poder llevar la información de los clientes de la plataforma Netflix.  
 
@@ -111,30 +62,7 @@ Es importante registrar los clientes, los contenidos que tenemos disponibles y s
 
 -   Tener en cuenta que un cliente puede ver muchos contenidos y un contenido puede ser visto por muchos clientes.  Nos interesa saber cuando un cliente miró un contenido y si lo vio completo.
 
-
-#### Sistema de Campeonato de Fútbol
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Campeonato de Fútbol
 
 Necesitamos generar una base de datos para almacenar la marcha del campeonato de fútbol local. Los responsables del campeonato nos brindaron la siguiente información: 
 
@@ -148,29 +76,7 @@ Necesitamos generar una base de datos para almacenar la marcha del campeonato de
 
 -   En cada campeonato se realizan una serie de partidos, donde finalmente todos los equipos se enfrentan al menos una vez.  Para cada partido se debe almacenar la fecha, los equipos que jugaron, el resultado final y la terna arbitral que lo dirigió.
 
-#### Sistema de Programas de Radio y auspiciantes
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Programas de Radio y auspiciantes
 
 Una radio local nos solicita un sistema para poder llevar registro de que programa de radio tienen publicidad con el objetivo de determinar qué programa aporta mayor ganancia por publicidad. La información que nos brinda es la siguiente:
 
@@ -186,29 +92,7 @@ Una radio local nos solicita un sistema para poder llevar registro de que progra
 
 -   Además un auspiciante selecciona un rango de fechas en el que va a pagar por la publicidad.
 
-#### Sistema de Terminal de Colectivos
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Terminal de Colectivos
 
 Nos piden modelar una base de datos para la terminal de colectivos de Retiro para registrar el ingreso y egreso de colectivos y pasajeros. 
 
@@ -218,29 +102,7 @@ Así mismo se espera tener un registro de las empresas de transporte que incluya
 
 Tener en cuenta que un colectivo solo puede pertenecer a una empresa de transporte y un chofer solo puede trabajar en una empresa.
 
-#### Sistema de Inscripciones
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Inscripciones
 
 Una organización dicta cursos gratuitos para docentes y necesita organizar la información de esos cursos, las personas que participan y sus docentes.  Los responsables nos proveyeron la siguiente información: 
 
@@ -252,29 +114,7 @@ Una organización dicta cursos gratuitos para docentes y necesita organizar la i
 
 -   Al registrarse un participante, indica su nombre y apellido, email, institución en la que trabaja, a cuantas personas da clases y que cursos quiere realizar.
 
-#### Sistema de gestión de vacunación
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-1.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-2.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de gestión de vacunación
 
 Un municipio nos pide ayuda para organizar la vacunación contra COVID de toda la población.  La vacunación es voluntaria y el orden dependerá de la edad, y determinadas condiciones de salud de las personas.  Se deben registrar las siguientes datos: 
 
@@ -284,55 +124,19 @@ Un municipio nos pide ayuda para organizar la vacunación contra COVID de toda l
 
 -   La vacunación se desarrollará en distintos centros de atención distribuidos en todo el municipio. Cada centro tiene una determinada capacidad de atención y un horario establecido para la atención al público.  Nos interesa registrar cuando la persona ya fue vacunada, que dosis, de que vacuna y en qué fecha.  Cada persona recibirá dos dosis de la misma marca de vacuna.
 
-#### Sistema de farmacias
+### Sistema de Farmacias
 
-##### Resolver
+Debemos diseñar un sistema para registrar las farmacias en diferentes ciudades de nuestro país.
 
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
+Cada farmacia tiene un nombre y un domicilio. Cada farmacia se ubica en una sola ciudad, pero en una ciudad hay varias farmacias.
 
-3.  El MER correspondiente. 
+De cada ciudad, sabemos el nombre, la provincia en la que se encuentra y la cantidad de habitantes. Conocemos también que cada farmacia puede tener un propietario, y que cada propietario tiene solamente una farmacia.
 
-    1.  Incluir la cardinalidad en las relaciones.
+De los propietarios, conocemos el DNI (único), su nombre y su domicilio, compuesto por calle, número, código postal y ciudad.
 
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
+Cada farmacia, a su vez, vende varios medicamentos y un medicamento se vende en varias farmacias. De cada medicamento conocemos su id único, su nombre comercial y las drogas de las cuales se compone. Cada farmacia vende un medicamento a un precio determinado, que no necesariamente es el mismo en todas las farmacias.
 
-4.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
-
-Debemos diseñar un sistema para registrar las farmacias en diferentes ciudades de nuestro país. Cada farmacia tiene un nombre y un domicilio. Cada farmacia se ubica en una sola ciudad, pero en una ciudad hay varias farmacias. De cada ciudad, sabemos el nombre, la provincia en la que se encuentra y la cantidad de habitantes. Conocemos también que cada farmacia puede tener un propietario, y que cada propietario tiene solamente una farmacia. De los propietarios, conocemos el DNI (único), su nombre y su domicilio, compuesto por calle, número, código postal y ciudad. Cada farmacia, a su vez, vende varios medicamentos y un medicamento se vende en varias farmacias. De cada medicamento conocemos su id único, su nombre comercial y las drogas de las cuales se compone. Cada farmacia vende un medicamento a un precio determinado, que no necesariamente es el mismo en todas las farmacias.
-
-#### Sistema de Agencia de viajes
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-5.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-6.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de Agencia de viajes
 
 Se quiere realizar una base de datos para llevar la información de varias agencias de viajes. De cada una se conoce su código, la fecha de inicio de actividades y la ciudad donde operan.  Solo pueden operar en una ciudad.
 
@@ -342,29 +146,7 @@ Los paquetes son comprados por clientes, los cuales tienen un nombre, domicilio 
 
 Los medios de pago son autorizados por un solo banco, de los cuales sabemos que poseen un nombre y un número de sucursal, que es único en todo el sistema. Al autorizar los pagos, se establece una fecha de validez.
 
-#### Sistema de préstamos de Bibliotecas
-
-##### Resolver
-
-A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:
-
-7.  El MER correspondiente. 
-
-    1.  Incluir la cardinalidad en las relaciones.
-
-    2.  Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.
-
-8.  El DER correspondiente.
-
-    1.  Identificar claramente las claves primarias (PK) y claves foráneas (FK)
-
-    2.  Identificar las restricciones necesarias para mantener la integridad.
-
-    3.  Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.
-
-Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto. 
-
-##### Descripción del sistema
+### Sistema de préstamos de Bibliotecas
 
 Los libros son uno de los componentes más importantes. De cada uno de ellos nos interesa registrar su título y género al que pertenece. Todo autor escribe al menos un libro, y a su vez todo libro tiene al menos un autor. De ellos interesa saber su nombre, su nacionalidad y año de nacimiento.
 
@@ -374,3 +156,40 @@ Las ediciones tienen como mínimo una copia, aunque las más demandadas tienen v
 
 Finalmente, las copias son las que serán pedidas en préstamo por los usuarios. Un usuario pide prestada una copia en una fecha específica, y en ese momento se le asigna una fecha de devolución. Del usuario se conoce el DNI (que lo identifica de otros usuarios), su nombre, su apellido y un email. Un usuario puede no pedir copias. A su vez, puede que una copia nunca sea pedida en préstamo.
 
+## Guía de ejercicios prácticos unidad 3
+
+Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.
+
+-   Invoice = Factura
+-   InvoiceLine = Detalle de la factura
+-   Customer = Cliente
+-   Track = Pista
+-   MediaType = Tipo de Medio
+-   Employee = Empleado
+-   Genre = Género
+-   Artist = Artista
+-   Album = Album
+-   PlayList = lista de reproducción
+-   PlaylistTrack = pistas por lista de reproducción
+
+![](img/chinookDER.png){fig-alt="DER de la base de datos Chinook."}
+
+## Guía de ejercicios prácticos unidad 4
+
+Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.
+
+-   Invoice = Factura
+-   InvoiceLine = Detalle de la factura
+-   Customer = Cliente
+-   Track = Pista
+-   MediaType = Tipo de Medio
+-   Employee = Empleado
+-   Genre = Género
+-   Artist = Artista
+-   Album = Album
+-   PlayList = lista de reproducción
+-   PlaylistTrack = pistas por lista de reproducción
+
+![](img/chinookDER.png){fig-alt="DER de la base de datos Chinook."}
+
+## 
