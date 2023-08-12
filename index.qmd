@@ -95,3 +95,9 @@ La materia se llevará a cabo en clases sincrónicas e interactivas que incluyen
 -   Formatos de la evaluación de las distintas instancias: presentación de forma sincrónica de los trabajos prácticos realizados.
 
 Ver la [agenda](schedule.html) de la materia con el cronograma de clases.
+
+## Citar como 
+
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.8242069.svg)
+
+Yanina Bellini Saibene, & Paola Corrales. (2023, August 12). Gestión De Datos. Zenodo. https://doi.org/10.5281/zenodo.8242069
