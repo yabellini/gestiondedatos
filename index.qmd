@@ -66,6 +66,8 @@ R y tidyverse para consulta de datos. Manipulacion de datos.
 
 -   Abigail Cabunoc and Sheldon McKay (eds): ["Software Carpentry. Using Databases and SQL."](https://github.com/swcarpentry/sql-novice-survey).Version 2017.08, August 2017, https://doi.org/10.5281/zenodo.838776
 
+- [When We Miss Missingness (Cuando extrañamos la falta)](https://datasciencebydesign.org/blog/when-we-miss-missingness) por Cat Hicks.
+
 Se solicitará a los estudiantes que instalen software libre y gratuito para la realización de las prácticas de la materia:
 
 -   SQLLite (gestor de base de datos): https://sqliteonline.com/, https://www.sqlite.org/index.html
