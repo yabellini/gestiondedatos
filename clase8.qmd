@@ -18,7 +18,7 @@ title: "Clase 8 - SQL y R"
 
 * Definir que es un paquete de R e instalarlos.
 
-* Escribir código de R utilizando el tidyverse que permita seleccionar, filtrar, modificar y resumir datos de una tabla.
+* Identificar los versos de tidyverse que permiten seleccionar, filtrar, modificar y resumir datos de una tabla.
 
 
 ## Slides
@@ -81,22 +81,4 @@ Utilizando la misma base de datos con la que venimos trabajando y desde RStudio 
 3.  Si la variable hindfoot_cm tiene valores nulos, ¿qué se podría agregar a código (de R o de SQL) para tener esto en cuenta?
 
 
-#### 3. summarise(), group_by()
 
-1.  A partir de la tabla surveys, calcular la media, máximo, mínimo y cantidad de registros (usando la función n()) para la variable hindfoot_length.
-
-    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
-
-    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
-
-    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
-
-2.  Modificar la consulta anterior (hacer una copia) para calcular la media, máximo, mínimo y cantidad de registros para la variable hindfoot_length por cada especie (specie_id). De nuevo:
-
-    1.  Primero escriban la consulta usando SQL (pueden usar comentarios de R con \# o escribirlo antes del bloque de código correspondiente).
-
-    2.  Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.
-
-    3.  Usando show_query() comparar la consulta con lo que escribieron en a.
-
-3.  ¿Cual es la especie más común? _Pista: hay que agregar la función arrange()_
