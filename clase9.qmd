@@ -4,28 +4,31 @@ title: "Clase 9"
 
 ## Objetivos de Aprendizaje
 
-* Conectar a una base de datos desde R.
+-   Conectar a una base de datos desde R.
 
-* Utilizar verbos tidyverse para seleccionar columnas y filtrar filas.
+-   Utilizar verbos tidyverse para seleccionar columnas y filtrar filas.
 
-* Escribir código R que permita modificar/generar columnas utilizando verbos tidyverse.
+-   Escribir código R que permita modificar/generar columnas utilizando verbos tidyverse.
 
-* Entender qué es un NA en R y como afecta los resultados de una consulta.
+-   Entender qué es un NA en R y como afecta los resultados de una consulta.
 
-* Utilizar verbos de tidyverse para resumir información
+-   Utilizar verbos de tidyverse para resumir información
 
-* Escribir código de R para poder hacer JOINs.
+-   Escribir código de R para poder hacer JOINs.
 
-* Entender que es una tabla larga y una tabla ancha.
+-   Entender que es una tabla larga y una tabla ancha.
 
-* Utilizar pivot_wider y pivot_longer para cambiar la estrcutura de una tabla.
+-   Utilizar pivot_wider y pivot_longer para cambiar la estrcutura de una tabla.
 
-* 
+-   Definir La gestión de datos en el proceso de la Ciencia de Datos.
+
+-   Explorar un caso de uso del mundo real donde se utilizan todas las herramientas vistas en las clases.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/14HrL2rfVeg_IJL3OY6XYO8hw0HzcOKdep6bncU7UjuQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/14HrL2rfVeg_IJL3OY6XYO8hw0HzcOKdep6bncU7UjuQ/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
+</iframe>
 
 ## Ejercicios
 
@@ -49,9 +52,32 @@ Utilizando la misma base de datos con la que venimos trabajando y desde RStudio 
 
     3.  Usando show_query() comparar la consulta con lo que escribieron en a.
 
-3.  ¿Cual es la especie más común? _Pista: hay que agregar la función arrange()_
+3.  ¿Cual es la especie más común? *Pista: hay que agregar la función arrange()*
+
+### 2. Joins!
+
+*Consejito: miren el diagrama en la dipo 15 para guiarse con las claves y los campos que tienen las tablas*
+
+1.  Une la tabla plot con la tabla surveys para devolver la cantidad de surveys por cada tipo de gráfico.
+
+2.  Conecta a la tabla species y escribe una consulta que una las tablas species con la tabla survey excluyendo a todos los registros de los no roedores (En inglés Roedores es Rodent).
+
+3.  Modifica la consulta anterior para que devuelva la cantidad de roedores por año.
+
+### 3.pivot_wider() y pivot()longer
+
+1.  A partir de la tabla con toda la información (que creamos uniendo el resto de las tablas):
+
+    1.  Contar la cantidad de \"genus\" distintos para cada plot_id y año. Algunas pistas:
+
+        1.  La tabla debera tener 3 columnas: plot_id, year, n_generos (que contiene la cantidad de genus distintos
+
+        2.  Para calcular la cantidad de cosas distintas exploren la funcion n_distinct() y summarise()!
+
+    2.  \"Ensancha\" la tabla para organizar la información tal que los años sean columnas y plot_id se organice en filas.
+
+    3.  \"Alarga\" la tabla para que en cada fila haya una combinación de plot_id y year.
 
 ## Lectura sugerida
 
-* [When We Miss Missingness (Cuando extrañamos la falta)](https://datasciencebydesign.org/blog/when-we-miss-missingness) por Cat Hicks
-  
+-   [When We Miss Missingness (Cuando extrañamos la falta)](https://datasciencebydesign.org/blog/when-we-miss-missingness) por Cat Hicks
