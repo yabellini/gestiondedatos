@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>186 - Gestión de Datos - Guía de Ejercicios</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ejerciciosextra.html">Guía de Ejercicios</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">186 - Gestión de Datos</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/yabellini/gestiondedatos" rel="" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 1 - Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 2 - Modelos de datos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 3 - Diseño de Bases de Datos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 4 - Diseño de Bases de Datos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 5 - SQL</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 6 - SQL</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 7 - SQL</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 8 - SQL y R</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 9 - R</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clase 10 - SQL</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ejerciciosextra.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Guía de Ejercicios</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluaciones.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Parciales y Finales</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#guía-de-ejercicios-prácticos-unidades-1-y-2" id="toc-guía-de-ejercicios-prácticos-unidades-1-y-2" class="nav-link active" data-scroll-target="#guía-de-ejercicios-prácticos-unidades-1-y-2">Guía de ejercicios prácticos Unidades 1 y 2</a>
+  <ul class="collapse">
+  <li><a href="#resolver" id="toc-resolver" class="nav-link" data-scroll-target="#resolver">Resolver</a></li>
+  <li><a href="#sistema-de-red-de-ensayos-de-cultivares" id="toc-sistema-de-red-de-ensayos-de-cultivares" class="nav-link" data-scroll-target="#sistema-de-red-de-ensayos-de-cultivares">Sistema de Red de Ensayos de Cultivares</a></li>
+  <li><a href="#sistema-de-club-de-lectura" id="toc-sistema-de-club-de-lectura" class="nav-link" data-scroll-target="#sistema-de-club-de-lectura">Sistema de Club de Lectura</a></li>
+  <li><a href="#sistema-de-netflix" id="toc-sistema-de-netflix" class="nav-link" data-scroll-target="#sistema-de-netflix">Sistema de Netflix</a></li>
+  <li><a href="#sistema-de-campeonato-de-fútbol" id="toc-sistema-de-campeonato-de-fútbol" class="nav-link" data-scroll-target="#sistema-de-campeonato-de-fútbol">Sistema de Campeonato de Fútbol</a></li>
+  <li><a href="#sistema-de-programas-de-radio-y-auspiciantes" id="toc-sistema-de-programas-de-radio-y-auspiciantes" class="nav-link" data-scroll-target="#sistema-de-programas-de-radio-y-auspiciantes">Sistema de Programas de Radio y auspiciantes</a></li>
+  <li><a href="#sistema-de-terminal-de-colectivos" id="toc-sistema-de-terminal-de-colectivos" class="nav-link" data-scroll-target="#sistema-de-terminal-de-colectivos">Sistema de Terminal de Colectivos</a></li>
+  <li><a href="#sistema-de-inscripciones" id="toc-sistema-de-inscripciones" class="nav-link" data-scroll-target="#sistema-de-inscripciones">Sistema de Inscripciones</a></li>
+  <li><a href="#sistema-de-gestión-de-vacunación" id="toc-sistema-de-gestión-de-vacunación" class="nav-link" data-scroll-target="#sistema-de-gestión-de-vacunación">Sistema de gestión de vacunación</a></li>
+  <li><a href="#sistema-de-farmacias" id="toc-sistema-de-farmacias" class="nav-link" data-scroll-target="#sistema-de-farmacias">Sistema de Farmacias</a></li>
+  <li><a href="#sistema-de-agencia-de-viajes" id="toc-sistema-de-agencia-de-viajes" class="nav-link" data-scroll-target="#sistema-de-agencia-de-viajes">Sistema de Agencia de viajes</a></li>
+  <li><a href="#sistema-de-préstamos-de-bibliotecas" id="toc-sistema-de-préstamos-de-bibliotecas" class="nav-link" data-scroll-target="#sistema-de-préstamos-de-bibliotecas">Sistema de préstamos de Bibliotecas</a></li>
+  </ul></li>
+  <li><a href="#guía-de-ejercicios-prácticos-unidad-3" id="toc-guía-de-ejercicios-prácticos-unidad-3" class="nav-link" data-scroll-target="#guía-de-ejercicios-prácticos-unidad-3">Guía de ejercicios prácticos unidad 3</a>
+  <ul class="collapse">
+  <li><a href="#ejercicios-de-manipulación-de-estructuras-y-de-datos" id="toc-ejercicios-de-manipulación-de-estructuras-y-de-datos" class="nav-link" data-scroll-target="#ejercicios-de-manipulación-de-estructuras-y-de-datos">Ejercicios de manipulación de estructuras y de datos</a></li>
+  <li><a href="#ejercicios-de-consultas" id="toc-ejercicios-de-consultas" class="nav-link" data-scroll-target="#ejercicios-de-consultas">Ejercicios de consultas</a></li>
+  </ul></li>
+  <li><a href="#guía-de-ejercicios-prácticos-unidad-4---r" id="toc-guía-de-ejercicios-prácticos-unidad-4---r" class="nav-link" data-scroll-target="#guía-de-ejercicios-prácticos-unidad-4---r">Guía de ejercicios prácticos unidad 4 - R</a>
+  <ul class="collapse">
+  <li><a href="#en-r-y-usando-la-base-de-datos-de-mamíferos" id="toc-en-r-y-usando-la-base-de-datos-de-mamíferos" class="nav-link" data-scroll-target="#en-r-y-usando-la-base-de-datos-de-mamíferos">En R y usando la base de datos de mamíferos</a></li>
+  <li><a href="#utilizando-la-base-de-datos-chinook" id="toc-utilizando-la-base-de-datos-chinook" class="nav-link" data-scroll-target="#utilizando-la-base-de-datos-chinook">Utilizando la base de datos Chinook</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Guía de Ejercicios</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="guía-de-ejercicios-prácticos-unidades-1-y-2" class="level2">
+<h2 class="anchored" data-anchor-id="guía-de-ejercicios-prácticos-unidades-1-y-2">Guía de ejercicios prácticos Unidades 1 y 2</h2>
+<section id="resolver" class="level3">
+<h3 class="anchored" data-anchor-id="resolver">Resolver</h3>
+<p>A continuación se presenta la descripción de un modelo a resolver. Leer atentamente y generar:</p>
+<ol type="1">
+<li><p>El MER correspondiente.</p>
+<ol type="1">
+<li><p>Incluir la cardinalidad en las relaciones.</p></li>
+<li><p>Indicar el dominio de cada atributo y si es compuesto y/o multivaluado.</p></li>
+</ol></li>
+<li><p>El DER correspondiente.</p>
+<ol type="1">
+<li><p>Identificar claramente las claves primarias (PK) y claves foráneas (FK)</p></li>
+<li><p>Identificar las restricciones necesarias para mantener la integridad.</p></li>
+<li><p>Mapear correctamente las cardinalidades de las relaciones indicadas en el MER.</p></li>
+</ol></li>
+</ol>
+<p><em>Opcional: pueden incluir un texto que justifique o explique las decisiones tomadas en cada punto.</em></p>
+</section>
+<section id="sistema-de-red-de-ensayos-de-cultivares" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-red-de-ensayos-de-cultivares">Sistema de Red de Ensayos de Cultivares</h3>
+<p>Se nos pide que modelemos una base de datos para una red de ensayos de cultivares brindándonos la siguiente información:</p>
+<p>La red de ensayos de cultivares de diferentes cultivos, como por ejemplo Girasol, Maíz, Trigo, Soja, etc. está integrada por un conjunto de localidades y experimentos (las localidades y cantidad de experimentos cambian con las campañas).&nbsp; Las campañas van de junio de un año a julio del año siguiente.&nbsp; De esta manera las campañas se nombran como 2019-2020, 2020-2021 y así sucesivamente.</p>
+<p>Los cultivares (semillas) incluidos en cada ensayo son elegidos por los proveedores de semilla, estos cultivares tienen un nombre único (compuesto por letras y números) y pertenecen a una empresa (un semillero). Participan entre 25 a 65 semillas por localidad y campaña.&nbsp; Los cultivares pueden estar en más de una localidad y en más de una campaña y los proveedores pueden elegir ninguna o muchas semillas para participar de los ensayos.</p>
+<p>En los ensayos se siembran cultivares y se van registrando datos sobre como crece esa semilla, por ejemplo, se miden alturas, cantidad de plantas, se anotan fechas de interés y luego cuando se cosecha, se miden otras variables como cuanto rindió.&nbsp;&nbsp;</p>
+<p>Para este sistema interesa registrar <strong>los ensayos de cada cultivar de cada cultivo en cada localidad por cada campaña.</strong> &nbsp;</p>
+<p>Los datos a registrar son:&nbsp;</p>
+<p>Cultivar, Empresa del cultivar,&nbsp; Fecha de Floración del cultivar, Cantidad de días entre siembra y floración del cultivar, Altura del cultivar, Altura promedio de plantas de las parcelas del cultivar, Densidad del cultivar, Rendimiento del cultivar, Porcentaje de humedad del cultivar, Aceite del cultivar, Campaña, Localidad del ensayo, Latitud y Longitud de la localidad donde se realiza el ensayo, Nombre del ensayo (que se forma con la localidad y la campaña), Tipo de Ensayo (puede ser: Convencional, Clearfield, Alto Oleico, Confitero, Tardia), Cultivo del Ensayo (pude ser Girasol, Soja, Maíz, etc), Distancia entre surcos,&nbsp; Tipo Siembra (puede ser: Directa, Convencional), Fecha de Siembra.</p>
+</section>
+<section id="sistema-de-club-de-lectura" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-club-de-lectura">Sistema de Club de Lectura</h3>
+<p>Nos piden ayuda para modelar el sistema de un club de lectura en el cual los socios aportan una cuota mensual y reciben todos los meses un libro en su domicilio para leer. Los responsables del club de lectura nos brindaron la siguiente información:&nbsp;</p>
+<p>Los libros son escritos por autores de los cuales conocemos su nombre, su nacionalidad y su fecha de nacimiento. Cada autor puede escribir uno o muchos libros.</p>
+<p>Los libros cuentan con un título, el idioma y la cantidad total de páginas. Adicionalmente, sabemos que cada libro tiene ediciones (que pueden ser una o muchas), de las cuales sabemos el año, el ISBN (que no puede repetirse) y la editorial. También sabemos que los libros son escritos por uno o muchos autores.&nbsp; El club cataloga los libros por género (ej: ciencia ficción, terror, historia, comedia, etc.).&nbsp; Los libros pueden pertenecer a más de un género.</p>
+<p>El club envía los libros a los socios que están al día con su cuota. De los socios sabemos su DNI, su nombre y apellido y su domicilio completo (calle, altura, código postal, localidad). Los socios marcan sus preferencias de género porque esto ayuda a los responsables del club con la decisión de qué tipo de libro comprar cada mes. También queremos registrar los pagos realizados por cada socio y los libros que ya le enviamos.</p>
+</section>
+<section id="sistema-de-netflix" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-netflix">Sistema de Netflix</h3>
+<p>Tenemos que generar la base de datos para poder llevar la información de los clientes de la plataforma Netflix.&nbsp;&nbsp;</p>
+<p>Es importante registrar los clientes, los contenidos que tenemos disponibles y si el cliente ya miró un contenido.</p>
+<ul>
+<li><p>Sobre el cliente nos interesa conocer sus datos de contacto (dirección completa con calle, altura, codigo postal, ciudad; telefonos, email, etc), nombre completo, DNI y medio de pago.&nbsp;&nbsp;</p></li>
+<li><p>Sobre los contenidos queremos saber el título, el tipo (película, serie, documental) y el género (comedia, acción, drama, etc.), tiempo de duración, idioma original, idioma de subtítulos disponibles y año de estreno. Tener en cuenta que un contenido puede pertenecer a más de un género y que puede tener ninguno o varios subtítulos.&nbsp;&nbsp;</p></li>
+<li><p>Tener en cuenta que un cliente puede ver muchos contenidos y un contenido puede ser visto por muchos clientes.&nbsp; Nos interesa saber cuando un cliente miró un contenido y si lo vio completo.</p></li>
+</ul>
+</section>
+<section id="sistema-de-campeonato-de-fútbol" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-campeonato-de-fútbol">Sistema de Campeonato de Fútbol</h3>
+<p>Necesitamos generar una base de datos para almacenar la marcha del campeonato de fútbol local. Los responsables del campeonato nos brindaron la siguiente información:&nbsp;</p>
+<ul>
+<li><p>El campeonato dura un año y compiten en él 30 equipos. Los campeonatos tienen un nombre que cambia todos los años, por ejemplo: Campeonato Sponsor 1.</p></li>
+<li><p>Los equipos tienen un nombre, cantidad de hinchas, colores en una camiseta titular y colores en una suplente, un estadio y una fecha de fundación. Además tiene una serie de jugadores y un equipo técnico.</p></li>
+<li><p>Los jugadores juegan uno o más campeonatos por cada equipo, pero solo pueden cambiar de equipo cuando termina un campeonato.&nbsp; Se almacena su pasaporte, nombre completo, edad, posición y en qué equipo juega.</p></li>
+<li><p>El equipo técnico está compuesto por médicos, preparadores físicos, el técnico y los entrenadores de arquero, delanteros, defensores y mediocampistas.&nbsp; Sobre ellos también tenemos los datos de nombre, pasaporte, ocupación y en qué equipo trabajan.&nbsp;&nbsp;</p></li>
+<li><p>En cada campeonato se realizan una serie de partidos, donde finalmente todos los equipos se enfrentan al menos una vez.&nbsp; Para cada partido se debe almacenar la fecha, los equipos que jugaron, el resultado final y la terna arbitral que lo dirigió.</p></li>
+</ul>
+</section>
+<section id="sistema-de-programas-de-radio-y-auspiciantes" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-programas-de-radio-y-auspiciantes">Sistema de Programas de Radio y auspiciantes</h3>
+<p>Una radio local nos solicita un sistema para poder llevar registro de que programa de radio tienen publicidad con el objetivo de determinar qué programa aporta mayor ganancia por publicidad. La información que nos brinda es la siguiente:</p>
+<ul>
+<li><p>El <strong>programa</strong> tiene uno o más <strong>conductores</strong>, un <strong>productor</strong> y un <strong>operador</strong>. Además tiene nombre, y un día y horario en el que se emite.&nbsp; Un programa se emite en un solo día y horario.&nbsp;&nbsp;</p></li>
+<li><p>Los <strong>auspicexaiantes</strong> son comercios, instituciones u organizaciones.&nbsp; Se almacena el nombre, datos de contacto (dirección completa, telefonos, mails) y datos de facturación.&nbsp; También interesa conocer que tipo de <strong>publicidad</strong> contrataron, cuanto pagaron y en qué programa solicitaron que se emita esa publicidad.</p></li>
+<li><p>La publicidad puede ser de diferente tipo (anuncio largo, medio y corto) y tienen precio diferente de acuerdo a ese tipo.&nbsp; El precio corresponde a un día de publicidad.</p></li>
+<li><p>Un programa puede tener ninguno o muchos tipos de publicidades que además corresponden a diferentes auspiciantes.</p></li>
+<li><p>Un auspiciante puede anunciar en uno o más programas.</p></li>
+<li><p>Además un auspiciante selecciona un rango de fechas en el que va a pagar por la publicidad.</p></li>
+</ul>
+</section>
+<section id="sistema-de-terminal-de-colectivos" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-terminal-de-colectivos">Sistema de Terminal de Colectivos</h3>
+<p>Nos piden modelar una base de datos para la terminal de colectivos de Retiro para registrar el ingreso y egreso de colectivos y pasajeros.&nbsp;</p>
+<p>Para las llegadas y partidas se desea conocer la empresa de transporte, el horario de salida y de llegada, el lugar de salida y destino, los nombres de los choferes, la cantidad de pasajeros y la patente del colectivo.&nbsp;</p>
+<p>Así mismo se espera tener un registro de las empresas de transporte que incluya los datos generales (CUIT, teléfono de contacto, dirección o número de ventanilla en la terminal) y la flota de colectivos con la que cuenta la empresa. Para cada colectivo se cuenta con los datos del modelo, patente, cantidad de asientos y fecha de último control vehicular.</p>
+<p>Tener en cuenta que un colectivo solo puede pertenecer a una empresa de transporte y un chofer solo puede trabajar en una empresa.</p>
+</section>
+<section id="sistema-de-inscripciones" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-inscripciones">Sistema de Inscripciones</h3>
+<p>Una organización dicta cursos gratuitos para docentes y necesita organizar la información de esos cursos, las personas que participan y sus docentes.&nbsp; Los responsables nos proveyeron la siguiente información:&nbsp;</p>
+<ul>
+<li><p>Tienen distintos cursos de distinta duración que se ofrecen en distintos horarios y días de la semana.&nbsp; El curso tiene un nombre y un link en una página web con la información general.&nbsp;</p></li>
+<li><p>Una edición de un curso está a cargo de al menos un docente y un ayudante o dos docentes. Es necesario registrar la fecha y hora de la edición, a que curso corresponde y quienes dictaron el curso y qué rol tuvieron. También cuantas personas se registraron y cuantas asistieron a esa edición.</p></li>
+<li><p>Algunos de los cursos pueden tener como requisito haber participado en un curso previo por lo que necesitan registrar la asistencia de cada persona en cada edición de un curso.&nbsp;</p></li>
+<li><p>Al registrarse un participante, indica su nombre y apellido, email, institución en la que trabaja, a cuantas personas da clases y que cursos quiere realizar.</p></li>
+</ul>
+</section>
+<section id="sistema-de-gestión-de-vacunación" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-gestión-de-vacunación">Sistema de gestión de vacunación</h3>
+<p>Un municipio nos pide ayuda para organizar la vacunación contra COVID de toda la población.&nbsp; La vacunación es voluntaria y el orden dependerá de la edad, y determinadas condiciones de salud de las personas.&nbsp; Se deben registrar las siguientes datos:&nbsp;</p>
+<ul>
+<li><p>Al registrarse para recibir las vacunas cada persona debe completar un formulario que incluye su DNI, género, fecha de nacimiento, antecedentes médicos y datos de contacto. La persona también selecciona el centro de vacunación que le queda más cómodo.&nbsp;</p></li>
+<li><p>El municipio recibe distintas marcas de vacuna que varían en tiempo entre primera y segunda dosis, la temperatura de transporte y de conservación y el laboratorio que las genera (un laboratorio puede producir más de una vacuna). Cada lote de vacunas está identificado por un código numérico pero no se garantiza que no se repitan entre las distintas marcas.&nbsp;</p></li>
+<li><p>La vacunación se desarrollará en distintos centros de atención distribuidos en todo el municipio. Cada centro tiene una determinada capacidad de atención y un horario establecido para la atención al público.&nbsp; Nos interesa registrar cuando la persona ya fue vacunada, que dosis, de que vacuna y en qué fecha.&nbsp; Cada persona recibirá dos dosis de la misma marca de vacuna.</p></li>
+</ul>
+</section>
+<section id="sistema-de-farmacias" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-farmacias">Sistema de Farmacias</h3>
+<p>Debemos diseñar un sistema para registrar las farmacias en diferentes ciudades de nuestro país.</p>
+<p>Cada farmacia tiene un nombre y un domicilio. Cada farmacia se ubica en una sola ciudad, pero en una ciudad hay varias farmacias.</p>
+<p>De cada ciudad, sabemos el nombre, la provincia en la que se encuentra y la cantidad de habitantes. Conocemos también que cada farmacia puede tener un propietario, y que cada propietario tiene solamente una farmacia.</p>
+<p>De los propietarios, conocemos el DNI (único), su nombre y su domicilio, compuesto por calle, número, código postal y ciudad.</p>
+<p>Cada farmacia, a su vez, vende varios medicamentos y un medicamento se vende en varias farmacias. De cada medicamento conocemos su id único, su nombre comercial y las drogas de las cuales se compone. Cada farmacia vende un medicamento a un precio determinado, que no necesariamente es el mismo en todas las farmacias.</p>
+</section>
+<section id="sistema-de-agencia-de-viajes" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-agencia-de-viajes">Sistema de Agencia de viajes</h3>
+<p>Se quiere realizar una base de datos para llevar la información de varias agencias de viajes. De cada una se conoce su código, la fecha de inicio de actividades y la ciudad donde operan.&nbsp; Solo pueden operar en una ciudad.</p>
+<p>Cada agencia ofrece paquetes turísticos, los cuales tienen un precio y destinos a varios países. Se identifican por un código de paquete. Un paquete puede estar relacionado con uno o más paquetes a modo de combo (ejemplo: viaje a Disney + crucero por el Caribe). Cada paquete es propio de una agencia y no puede ser vendido en otra.</p>
+<p>Los paquetes son comprados por clientes, los cuales tienen un nombre, domicilio y son diferenciados por su DNI. Estos clientes tienen varias formas de pago, de las cuales conocemos su tipo (credito, debito, efectivo) y el monto a pagar por cada medio de pago.</p>
+<p>Los medios de pago son autorizados por un solo banco, de los cuales sabemos que poseen un nombre y un número de sucursal, que es único en todo el sistema. Al autorizar los pagos, se establece una fecha de validez.</p>
+</section>
+<section id="sistema-de-préstamos-de-bibliotecas" class="level3">
+<h3 class="anchored" data-anchor-id="sistema-de-préstamos-de-bibliotecas">Sistema de préstamos de Bibliotecas</h3>
+<p>Los libros son uno de los componentes más importantes. De cada uno de ellos nos interesa registrar su título y género al que pertenece. Todo autor escribe al menos un libro, y a su vez todo libro tiene al menos un autor. De ellos interesa saber su nombre, su nacionalidad y año de nacimiento.</p>
+<p>Un libro tiene además al menos una edición. De ellas interesa el año, el ISBN (un identificador único entre ediciones de libros), y además su idioma.</p>
+<p>Las ediciones tienen como mínimo una copia, aunque las más demandadas tienen varias copias. Cada copia se diferencia por su número, aunque este número por si solo no basta para diferenciarla: es necesario conocer además la edición a la que pertenecen.</p>
+<p>Finalmente, las copias son las que serán pedidas en préstamo por los usuarios. Un usuario pide prestada una copia en una fecha específica, y en ese momento se le asigna una fecha de devolución. Del usuario se conoce el DNI (que lo identifica de otros usuarios), su nombre, su apellido y un email. Un usuario puede no pedir copias. A su vez, puede que una copia nunca sea pedida en préstamo.</p>
+</section>
+</section>
+<section id="guía-de-ejercicios-prácticos-unidad-3" class="level2">
+<h2 class="anchored" data-anchor-id="guía-de-ejercicios-prácticos-unidad-3">Guía de ejercicios prácticos unidad 3</h2>
+<p>Utilizando la base de datos Chinook resolver los siguientes ejercicios. La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.</p>
+<ul>
+<li>Invoice = Factura</li>
+<li>InvoiceLine = Detalle de la factura</li>
+<li>Customer = Cliente</li>
+<li>Track = Pista</li>
+<li>MediaType = Tipo de Medio</li>
+<li>Employee = Empleado</li>
+<li>Genre = Género</li>
+<li>Artist = Artista</li>
+<li>Album = Album</li>
+<li>PlayList = lista de reproducción</li>
+<li>PlaylistTrack = pistas por lista de reproducción</li>
+</ul>
+<p><img src="img/chinookDER.png" class="img-fluid" alt="DER de la base de datos Chinook."></p>
+<section id="ejercicios-de-manipulación-de-estructuras-y-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicios-de-manipulación-de-estructuras-y-de-datos">Ejercicios de manipulación de estructuras y de datos</h3>
+<ol type="1">
+<li><p>Escribir las sentencias SQL para <strong>CREAR</strong> las tablas Track, MediaType y Genre.</p></li>
+<li><p>Escribir la sentencia SQL para <strong>INSERTAR</strong> un nuevo registro en la tabla Customer (usar sus datos personales como datos en la sentencia).</p></li>
+<li><p>Escribir la sentencia SQL para <strong>ACTUALIZAR</strong> el precio unitario de todas las pistas del Álbum número 14 a 5 dólares.</p></li>
+</ol>
+</section>
+<section id="ejercicios-de-consultas" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicios-de-consultas">Ejercicios de consultas</h3>
+<ol type="1">
+<li><p>Listar todos los empleados que son de la ciudad Calgary.</p></li>
+<li><p>Listar todas las facturas cuyo total sea mayor a 10 y el país sea igual a Chile.</p></li>
+<li><p>Listar el nombre de la pista y el título del álbum ordenado de forma ascendente por título del álbum.</p></li>
+<li><p>Listar el id de la factura, los nombres de las pistas y la cantidad de vendida de todas las facturas cuyo ID sea menor a 10.</p></li>
+<li><p>Listar los nombres de las pistas vendidas, y cuántas se vendieron (este dato está en Cantidad - Quantity), ordenar de forma descendente por este último dato.</p></li>
+<li><p>Listar cada playlist con el total de pistas que tiene cada una.</p></li>
+<li><p>Los Bytes indican cuando ocupa cada pista en formato digital.&nbsp; Listar el máximo, el mínimo, el promedio y el total de bytes de todas las pistas.</p></li>
+<li><p>Modificar la consulta anterior para hacer los mismos cálculos pero con la duración de cada pista.&nbsp; Está medida en milisegundos (Milliseconds).</p></li>
+<li><p>Listar cuantas pistas tiene cada tipo de Medio, mostrando el nombre del tipo de medio y la cantidad ordenado de mayor a menor.</p></li>
+<li><p>Obtener un listado sin repetir de los países de los clientes y otro de los empleados.Luego generar una sola lista con ambas consultas.</p></li>
+<li><p>Mostrar una lista de todos los artistas en orden alfabético.</p></li>
+<li><p>Mostrar la cantidad de álbumes por artistas y ordenar la información en orden alfabético por nombre de artista.</p></li>
+<li><p>Calcular el promedio de ventas por país.</p></li>
+<li><p>Buscar el nombre de la pista (track) más cara y la más barata.</p></li>
+<li><p>General una tabla que combine el nombre completo del cliente y del empleado que lo atendió.</p></li>
+<li><p>Contar la cantidad de pistas por género.</p></li>
+<li><p>Modificar la consulta anterior para mostrar el nombre del género en la lista en vez del id.&nbsp;</p></li>
+<li><p>Calcular la duración promedio de las pistas por género.</p></li>
+<li><p>Calcular la duración total de cada álbum y mostrarlos de más a menos largo.</p></li>
+<li><p>Modificar la consulta anterior para incluir el nombre del artista y el genero.&nbsp;</p></li>
+</ol>
+</section>
+</section>
+<section id="guía-de-ejercicios-prácticos-unidad-4---r" class="level2">
+<h2 class="anchored" data-anchor-id="guía-de-ejercicios-prácticos-unidad-4---r">Guía de ejercicios prácticos unidad 4 - R</h2>
+<section id="en-r-y-usando-la-base-de-datos-de-mamíferos" class="level3">
+<h3 class="anchored" data-anchor-id="en-r-y-usando-la-base-de-datos-de-mamíferos">En R y usando la base de datos de mamíferos</h3>
+<ol type="1">
+<li><p>De la tabla survey seleccionar la fecha completa.</p></li>
+<li><p>Filtrar los registros para el año 1977</p></li>
+<li><p>Calcular el promedio del tamaño de tobillo (hindfoot) para las distintas especies.&nbsp;</p></li>
+<li><p>¿Cuál es el animal más pesado medido cada año?</p></li>
+<li><p>A partir de la tabla de especies, escribir una consulta que una las tablas species y de surveys para excluir a todos los no roedores (Rodent en la variable genus). La consulta debe devolver los recuentos de roedores por año.</p></li>
+</ol>
+</section>
+<section id="utilizando-la-base-de-datos-chinook" class="level3">
+<h3 class="anchored" data-anchor-id="utilizando-la-base-de-datos-chinook">Utilizando la base de datos Chinook</h3>
+<p>Resolver los siguientes ejercicios en R en RStudio. La solución debe incluir el código necesario para leer las tablas utilizadas.</p>
+<p>La figura presenta el Diagrama Entidad Relación y este es significado de los nombres de las tablas en castellano.</p>
+<ul>
+<li>Invoice = Factura</li>
+<li>InvoiceLine = Detalle de la factura</li>
+<li>Customer = Cliente</li>
+<li>Track = Pista</li>
+<li>MediaType = Tipo de Medio</li>
+<li>Employee = Empleado</li>
+<li>Genre = Género</li>
+<li>Artist = Artista</li>
+<li>Album = Album</li>
+<li>PlayList = lista de reproducción</li>
+<li>PlaylistTrack = pistas por lista de reproducción</li>
+</ul>
+<p><img src="img/chinookDER.png" class="img-fluid" alt="DER de la base de datos Chinook."></p>
+<ol type="1">
+<li><p>Escribir el código necesario para <strong>LISTAR</strong> cuantas pistas tiene cada tipo de Medio, mostrando el nombre del tipo de medio y la cantidad ordenado de mayor a menor.</p></li>
+<li><p>Escribir el código de R para obtener un listado sin repetir de los países de los clientes y otro de los empleados.</p></li>
+<li><p>Escribir el código necesario para <strong>LISTAR</strong> cuantas pistas tiene cada tipo de Genre, mostrando el nombre del genero y la cantidad ordenado de mayor a menor.&nbsp;&nbsp;</p></li>
+<li><p>Escribir el código de R necesario para <strong>ACTUALIZAR</strong> el precio unitario de todas las pistas de los álbunes número 16 y 17 con un aumento de un 250%.</p></li>
+<li><p>Escribir el código de R necesario para &nbsp;<strong>LISTAR</strong> cuantas pistas tiene cada PlayList, mostrando el nombre de la playlist y la cantidad de pistar ordenado de mayor a menor.</p></li>
+<li><p>Escribir el código de R necesario para <strong>LISTAR</strong> todos los clientes que sean atenidos por el empleado de apellido Park.</p></li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
