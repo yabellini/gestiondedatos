@@ -35,11 +35,32 @@
     "text": "Lecturas sugeridas\n\nModulo 4 del libro Bases de datos. Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora. ISBN: 84-9788-269-5."
   },
   {
+    "objectID": "clase9.html",
+    "href": "clase9.html",
+    "title": "Clase 9",
+    "section": "",
+    "text": "Conectar a una base de datos desde R.\nUtilizar verbos tidyverse para seleccionar columnas y filtrar filas.\nEscribir código R que permita modificar/generar columnas utilizando verbos tidyverse.\nEntender qué es un NA en R y como afecta los resultados de una consulta.\nUtilizar verbos de tidyverse para resumir información"
+  },
+  {
+    "objectID": "clase9.html#objetivos-de-aprendizaje",
+    "href": "clase9.html#objetivos-de-aprendizaje",
+    "title": "Clase 9",
+    "section": "",
+    "text": "Conectar a una base de datos desde R.\nUtilizar verbos tidyverse para seleccionar columnas y filtrar filas.\nEscribir código R que permita modificar/generar columnas utilizando verbos tidyverse.\nEntender qué es un NA en R y como afecta los resultados de una consulta.\nUtilizar verbos de tidyverse para resumir información"
+  },
+  {
     "objectID": "clase9.html#slides",
     "href": "clase9.html#slides",
     "title": "Clase 9",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "clase9.html#ejercicios",
+    "href": "clase9.html#ejercicios",
+    "title": "Clase 9",
+    "section": "Ejercicios",
+    "text": "Ejercicios\nUtilizando la misma base de datos con la que venimos trabajando y desde RStudio resolver los siguientes ejercicios y subir el código al campus. Uno por grupo!\n\n1. summarise(), group_by()\n\nA partir de la tabla surveys, calcular la media, máximo, mínimo y cantidad de registros (usando la función n()) para la variable hindfoot_length.\n\nPrimero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente).\nLuego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.\nUsando show_query() comparar la consulta con lo que escribieron en a.\n\nModificar la consulta anterior (hacer una copia) para calcular la media, máximo, mínimo y cantidad de registros para la variable hindfoot_length por cada especie (specie_id). De nuevo:\n\nPrimero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente).\nLuego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.\nUsando show_query() comparar la consulta con lo que escribieron en a.\n\n¿Cual es la especie más común? Pista: hay que agregar la función arrange()"
   },
   {
     "objectID": "clase2.html",
@@ -91,11 +112,32 @@
     "text": "Clases de tres horas sincrónicas por semana más horas de lectura de bibliografía obligatoria y práctica, totalizando 96 horas en total.\n\n\n\n\nYanina Bellini Saibene\nPaola Corrales\n\n\n\n\nAnte la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.\n\n\n\n\nSistemas de bases de Datos.\nDiseño y administración de Sistemas de Bases de Datos.\nEscalabilidad, eficiencia y efectividad.\nModelado y calidad de datos.\nModelos de datos: Modelo Entidad-Relación, Modelo Relacional.\nLenguajes de Sistemas de Gestión de Bases de Datos. Álgebra Relacional, Cálculo Relacional.\nEl lenguaje estándar SQL.\nDiseño de Bases de Datos Relacionales. Teoría formal de la Normalización de esquemas relacionales. Integridad. Seguridad. Recuperación. Concurrencia. Optimización.\nEl lenguaje de programación R.\nNociones de minería de datos.\n\n\n\n\nLos objetivos de la materia son:\n\nAdquirir nociones sobre la generación y origen de los datos, formas de almacenamiento y su organización.\nIdentificar distintos diseños de bases de datos.\nDesarrollar modelos de datos.\nManipular bases de datos utilizando el lenguaje SQL.\nAplicar las nociones de SQL adquiridas en aplicaciones con el lenguaje R.\n\n\n\n\n\n\nDato. Información. Dimensiones de los datos. Generación de Datos. Formas de ordenamiento y almacenamiento. Evolución: del archivo txt a las bases de datos no estructuradas (Big Data). Nociones de minería de datos.\n\n\n\nEl modelo relacional y el álgebra relacional. Introducción al diseño de bases de datos. Datos estructurados (tidy). Formas normales. Modelado de datos. Creación del modelo conceptual en un modelo de base de datos\n\n\n\nEl lenguaje SQL. Manipulación de estructuras de datos. Consulta de datos. Manipulación de datos.\n\n\n\nR y tidyverse para consulta de datos. Manipulacion de datos.\n\n\n\n\n\nCamps Pané, Rafael y otros (2005). Bases de datos. Barcelona, Fundació per a la Universitat Oberta de Catalunya. Disponible en:\nR para ciencia de datos. de Hadley Wickham y Garrett Grolemund. Disponible es:\nAbigail Cabunoc and Sheldon McKay (eds): “Software Carpentry. Using Databases and SQL.”.Version 2017.08, August 2017, https://doi.org/10.5281/zenodo.838776\n\nSe solicitará a los estudiantes que instalen software libre y gratuito para la realización de las prácticas de la materia:\n\nSQLLite (gestor de base de datos): https://sqliteonline.com/, https://www.sqlite.org/index.html\nR (lenguaje de programación)\nRStudio (IDE)\n\nOtros materiales y bibliografía serán sugeridos de acuerdo a las discusiones que se generen y el interés de las y los estudiantes.\n\n\n\nLa materia se llevará a cabo en clases sincrónicas e interactivas que incluyen exposiciones teóricas y ejercicios prácticos. Para cada clase se sugerirá bibliografía para leer y complementar los temas vistos como así también ejercicios de práctica si correspondiera. En el campus virtual están disponibles los materiales, clases grabadas y se abrirán foros para preguntas y discusión de los distintos temas. La comunicación se realizará por ese medio.\n\n\n\nRequisitos de aprobación: para aprobar la cursada será necesario aprobar los dos trabajos de evaluación parcial con una nota de 6 puntos o más. Para aprobar la materia deberán cumplirse una de las siguientes condiciones:\n\nAprobar los trabajos de evaluación con una nota de 6 o más puntos y un promedio mayor a 7 puntos.\nAprobar un trabajo final a rendir en una fecha de examen.\nCriterios de evaluación: Se evaluarán los contenidos de la materia en dos trabajos prácticos grupales.\nFormatos de la evaluación de las distintas instancias: presentación de forma sincrónica de los trabajos prácticos realizados.\n\nVer la agenda de la materia con el cronograma de clases."
   },
   {
+    "objectID": "clase8.html",
+    "href": "clase8.html",
+    "title": "Clase 8 - SQL y R",
+    "section": "",
+    "text": "Identificar que funciones de SQL son de manipulación de estructura, cuales de manipulación de datos, cuales de consulta de datos.\nDiferenciar cuando se usa la clausula WHERE y cuando la clausula HAVING.\nEscribir consultas que permitan filtrar resultados agrupados.\nIdentificar cuando es necesaria una subconsulta y escribirlas.\nDefinir que es R y RStudio.\nReconocer la interfaz de usuario de RStudio y los panales principales.\nDefinir que es un paquete de R e instalarlos.\nIdentificar los versos de tidyverse que permiten seleccionar, filtrar, modificar y resumir datos de una tabla."
+  },
+  {
+    "objectID": "clase8.html#objetivos-de-aprendizaje",
+    "href": "clase8.html#objetivos-de-aprendizaje",
+    "title": "Clase 8 - SQL y R",
+    "section": "",
+    "text": "Identificar que funciones de SQL son de manipulación de estructura, cuales de manipulación de datos, cuales de consulta de datos.\nDiferenciar cuando se usa la clausula WHERE y cuando la clausula HAVING.\nEscribir consultas que permitan filtrar resultados agrupados.\nIdentificar cuando es necesaria una subconsulta y escribirlas.\nDefinir que es R y RStudio.\nReconocer la interfaz de usuario de RStudio y los panales principales.\nDefinir que es un paquete de R e instalarlos.\nIdentificar los versos de tidyverse que permiten seleccionar, filtrar, modificar y resumir datos de una tabla."
+  },
+  {
     "objectID": "clase8.html#slides",
     "href": "clase8.html#slides",
-    "title": "Clase 8",
+    "title": "Clase 8 - SQL y R",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "clase8.html#ejercicios",
+    "href": "clase8.html#ejercicios",
+    "title": "Clase 8 - SQL y R",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nEjercicio SQL: clausula HAVING\nUtilizando la base de datos Chinook resolver las siguientes consultas:\n\nObtener la lista de países que tienen una cantidad de facturas igual a 7. Ordenarlos alfabéticamente.\nListar todas las ciudades cuyo total de facturación es mayor a 50. Mostrar el nombre de la ciudad y el total. Ordenarlos de forma que aparezcan primero las ciudades que más facturaron. Mostrar los totales con solo dos decimales.\nObtener los tipos de medios (MediaType) que tienen menos de 100 pistas (Traks). Pista: resolver primero la consulta para saber cuantas pistas tiene cada tipo de medio y luego agregar el HAVING necesario.\n\n\n\nEjercicios R\nUtilizando la misma base de datos con la que venimos trabajando y desde RStudio resolver los siguientes ejercicios y subir el código al campus. Uno por grupo!\n\n1. select(), filter()\n\nDe la tabla surveys, seleccionen solo las columnas species_id, sex y hindfoot_length.\n\nPrimero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente). \nLuego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto. \nUsando show_query() comparar la consulta con lo que escribieron en a.\n\nDe la tabla surveys, filtren los registros previos a 1995. Nuevamente:\n\nPrimero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente).\nLuego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.\nUsando show_query() comparar la consulta con lo que escribieron en a.\n\nA partir de las consultas anteriores unifiquen el código para seleccionar las consultas y aplicar el filtro al mismo tiempo.\n¿Cuántos registros (filas) se obtienen?\n\n\n\n2. mutate()\n\nA partir de la tabla surveys, modificar la variable hindfoot_length (actualmente expresada en mm) para mostrarla en cm, la nueva variable se llamará hindfoot_cm. \n\nPrimero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente). \nLuego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto. \nUsando show_query() comparar la consulta con lo que escribieron en a.\n\nModificar la consulta anterior (hacer una copia) para además filtrar los registros donde hindfoot_cm &lt; 3. \nSi la variable hindfoot_cm tiene valores nulos, ¿qué se podría agregar a código (de R o de SQL) para tener esto en cuenta?"
   },
   {
     "objectID": "clase10.html#slides",

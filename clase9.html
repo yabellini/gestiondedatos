@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./clase9.html">Clase 9</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./clase9.html">Clase 9 - R</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -156,13 +156,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./clase8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Clase 8</span></a>
+ <span class="menu-text">Clase 8 - SQL y R</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./clase9.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Clase 9</span></a>
+ <span class="menu-text">Clase 9 - R</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,6 +183,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#objetivos-de-aprendizaje" id="toc-objetivos-de-aprendizaje" class="nav-link active" data-scroll-target="#objetivos-de-aprendizaje">Objetivos de Aprendizaje</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
+  <ul class="collapse">
+  <li><a href="#summarise-group_by" id="toc-summarise-group_by" class="nav-link" data-scroll-target="#summarise-group_by">1. summarise(), group_by()</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -208,13 +212,42 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="objetivos-de-aprendizaje" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos-de-aprendizaje">Objetivos de Aprendizaje</h2>
+<ul>
+<li><p>Conectar a una base de datos desde R.</p></li>
+<li><p>Utilizar verbos tidyverse para seleccionar columnas y filtrar filas.</p></li>
+<li><p>Escribir código R que permita modificar/generar columnas utilizando verbos tidyverse.</p></li>
+<li><p>Entender qué es un NA en R y como afecta los resultados de una consulta.</p></li>
+<li><p>Utilizar verbos de tidyverse para resumir información</p></li>
+</ul>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <iframe src="https://docs.google.com/presentation/d/14HrL2rfVeg_IJL3OY6XYO8hw0HzcOKdep6bncU7UjuQ/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
+</section>
+<section id="ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
+<p>Utilizando la misma base de datos con la que venimos trabajando y desde RStudio resolver los siguientes ejercicios y subir el código al campus. Uno por grupo!</p>
+<section id="summarise-group_by" class="level3">
+<h3 class="anchored" data-anchor-id="summarise-group_by">1. summarise(), group_by()</h3>
+<ol type="1">
+<li><p>A partir de la tabla surveys, calcular la media, máximo, mínimo y cantidad de registros (usando la función n()) para la variable hindfoot_length.</p>
+<ol type="1">
+<li><p>Primero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente).</p></li>
+<li><p>Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.</p></li>
+<li><p>Usando show_query() comparar la consulta con lo que escribieron en a.</p></li>
+</ol></li>
+<li><p>Modificar la consulta anterior (hacer una copia) para calcular la media, máximo, mínimo y cantidad de registros para la variable hindfoot_length por cada especie (specie_id). De nuevo:</p>
+<ol type="1">
+<li><p>Primero escriban la consulta usando SQL (pueden usar comentarios de R con # o escribirlo antes del bloque de código correspondiente).</p></li>
+<li><p>Luego escriban la consulta usando dplyr y ejecuten el código para ver el resultado y verificar que sea correcto.</p></li>
+<li><p>Usando show_query() comparar la consulta con lo que escribieron en a.</p></li>
+</ol></li>
+<li><p>¿Cual es la especie más común? <em>Pista: hay que agregar la función arrange()</em></p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
